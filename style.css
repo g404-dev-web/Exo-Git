@@ -221,6 +221,17 @@ p{
     flex-wrap: wrap;
 }
 
+#mickael{
+    width: 350px;
+    border: 1px solid gray;
+    box-shadow: 1px 1px 3px #888;
+    border-top: 10px solid blue;
+    min-height: 250px;
+    padding: 10px;
+    margin: 10px;
+}
+
+
 #marteau{
     width: 350px;
     border: 2px solid rgb(3, 25, 39);
@@ -295,4 +306,5 @@ animation-fill-mode: forwards;
 .baptiste{
     border: 1px solid #FF8C00;
 }
+
 
