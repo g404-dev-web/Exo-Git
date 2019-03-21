@@ -1,3 +1,5 @@
+
+
 /* ################### */
 /* DEBUT CODE ORIGINEL */
 /* ################### */
@@ -11,6 +13,7 @@
 }
 
 .card{
+
     width: 350px;
     border: 5px solid gray;
     box-shadow: 1px 1px 3px #888;
@@ -43,6 +46,32 @@ p {
 /* FIN CODE ORIGINEL */
 /* ################# */
 
+
+/*debut code céline*/
+#card-celine{
+    width: 350px;
+    border: 1px solid gray;
+    box-shadow: 1px 1px 3px rgb(33, 47, 240);
+    border-top: 10px solid  yellow ;
+}
+
+#imgceline{
+    border-radius: 50%;
+    width: 80px;
+    margin: 10px;
+}
+
+#h1celine{
+    font-weight: lighter;
+    margin-left: 150px;
+    margin-top: -40px;
+}
+
+#pceline{
+    margin: 5px;
+}
+/*fin code céline*/
+
 /* SHEIMA */
 #carteSheima { 
     border-top: 10px solid yellow;
@@ -66,6 +95,7 @@ p {
 #img-av {
     border-radius: 50%;
     width: 70px;
+
 }
 
 #name-av {
@@ -131,6 +161,7 @@ p {
     line-height: 1.4em;
     font-size: 18px;
     text-align: center;
+
 }
 /* FIN JESSICA */
 
@@ -298,6 +329,7 @@ p {
     text-shadow: 1px 1px 12px red;
     color: orange;
     margin: 10px;
+
     font-family: segoe ui;
     line-height: 1.4em;
     font-size: 1.2em;
