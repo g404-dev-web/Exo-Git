@@ -1,13 +1,12 @@
-
-.card {
-
+.card{
+  
     width: 350px;
-    border: 1px solid gray;
+    border: 5px solid gray;
     box-shadow: 1px 1px 3px #888;
-    border-top: 10px solid green;
+    border-top: 10px solid purple;
     min-height: 250px;
     padding: 10px;
-    margin: 10px;
+    margin: 40px;
 }
 
 #carte {    border-top: 10px solid yellow;
@@ -17,27 +16,27 @@
 
 
 #card-av{
-
+  
     width: 350px;
     border: 1px solid gray;
     box-shadow: 1px 1px 3px #888;
-
     border-top: 10px solid purple;
-
     min-height: 250px;
     padding: 10px;
     margin: 10px;
 }
 
-
 .cardemi{
     width: 350px;
     border: 1px solid gray;
     box-shadow: 1px 1px 3px #888;
-    border-top: 10px solid #A42F85;
+    border-top: 10px solid green;
     min-height: 250px;
     padding: 10px;
     margin: 10px;
+}
+
+img{
     background: #A4569A;
     background: -moz-radial-gradient(center, #A4569A 0%, #C191CB 55%, #672F75 100%);
     background: -webkit-radial-gradient(center, #A4569A 0%, #C191CB 55%, #672F75 100%);
@@ -45,6 +44,7 @@
 }
 
 .mathis{
+  
     width: 350px;
     border: 1px solid green;
     box-shadow: 1px 1px 3px #888;
@@ -57,7 +57,49 @@
     margin: 10px; 
 }
 
+#xav {
+  
+    background-color: black;
+    background-image: url(https://i.pinimg.com/originals/50/f1/fa/50f1facc8b7e54cdcfb782d11e6ce15d.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-color: purple;
+    text-shadow: 2px 2px white;
+}
 
+#kylianCard{
+    width: 350px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("https://4kwallpapersimages.com/wp-content/uploads/2017/12/7K-Wallpaper-Black-Goku-Dragon-Ball-Super-8k-800x600.jpg");
+    background-color: black;
+    border: 1px solid gray;
+    box-shadow: 1px 1px 3px #888;
+    border-top: 10px solid darkred;
+    min-height: 250px;
+    padding: 10px;
+    margin: 10px;
+    text-shadow: 1px 1px 12px red;
+    color: orange;
+    margin: 10px;
+    font-family: segoe ui;
+    line-height: 1.4em;
+    font-size: 1.2em;
+}
+
+#rodrigue{
+    width: 350px;
+    border: 1px solid gray;
+    box-shadow: 1px 1px 3px #888;
+    border-top: 10px solid rgb(77, 58, 88);
+    min-height: 250px;
+    padding: 10px;
+    margin: 10px;
+    background: #1C6EA4;
+    text-shadow: 4px 4px 14px purple;
+}
 
     
 #img-av{
@@ -80,56 +122,85 @@ img {
 
 }
 
-h1,#name-av{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    text-shadow: 0px 0px 5px black;
+h1{
     font-weight: lighter;
     margin-left: 100px;
     margin-top: -30px;
-
-}
-h1 {
-    font-weight: lighter;
-    margin-left: 100px;
-
-    margin-top: -70px;
     text-align: center;
+} 
 
-
-
-
+#name-av{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 0px 0px 5px black;
 }
+
 #titreemi{
     color: #A42F85;
     text-shadow: 1px 2px 2px #A4108B;
 
 }
 
-#p-av{
-
-    margin: 10px;
-    font-family: segoe ui;
-    line-height: 1.4em;
-    font-size: 1.2em;
-
-    text-align: center;
-;
-
-    
-
-
-}
-
-#explicationemi {
-    color: #C80581;
-}
 p{
     margin: 10px;
     font-family: segoe ui;
     line-height: 1.4em;
-    font-size: 1.2em;  
+    font-size: 1.2em;
+    text-align: center;
+}
+
+
+#explicationemi {
+    color: #C80581;
+}
+
+/* ################ */
+/* DEBUT CODE CHRIS */
+/* ################ */
+
+.chrisCard {
+    width: 350px;
+    border: 1px solid lightgray;
+    box-shadow: 1px 4px 5px #00DDFF;
+    border-top: 18px solid rebeccapurple;
+    min-height: 250px;
+    padding: 10px;
+}
+
+.chrisCard .centered {
+    text-align: center;
+}
+
+.chrisCard acronym {
+    text-decoration: underline lightblue;
+}
+
+.chrisCard p {
+    text-align: justify;
+    margin-top: 20px;
+    text-indent: 1.6em;
+}
+
+.chrisCard h1:hover {
+    color: darkblue;
 
 }
+
+.chrisCard h1 {
+    margin-top: -60px;
+}
+
+.chrisCard .centered img:hover {
+    box-shadow: 5px 5px 5px #00DDFF;
+}
+
+.chrisCard hr {
+    border: 1px solid rebeccapurple;
+    border-radius: 5px;
+}
+
+/* ################ */
+/* FIN CODE CHRIS */
+/* ################ */
 
 #mainbox{
     font-family: calibri;
@@ -137,35 +208,60 @@ p{
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
-
+}
+  
+#cedric img {
+    width: 100px; 
 }
 
-
-#div-name-av {
-    display: block;
-
-    
+#cedric h1 {
+    text-align: center;
+    color: blue;
 }
-#name-av:hover {
-animation-name: animNDP;
-animation-duration: 1s;
-animation-fill-mode: forwards;
 
-}
-@keyframes animNDP {
-    0%{
-        text-shadow: 0px 0px 6px black;
-
-
-    }
-    100%{
-        text-shadow: 0px -3px 7px grey;
-        font-size: 28px;
-        
-    }
+#cedric p {
+    margin-top: 55px;
+    text-align: center;
+    color: green;
 }
 
 .baptiste{
     border: 1px solid #FF8C00;
 }
 
+.elodycard{
+    width: 350px;
+    border: 5px solid gray;
+    box-shadow: 1px 1px 3px #888;
+    border-top: 10px solid purple;
+    min-height: 250px;
+    padding: 10px;
+    margin: 40px;
+}
+
+img{
+    border-radius: 80%;
+    width: 70px;
+    margin: 10px;
+}
+
+#div-name-av {
+    display: block;
+}
+
+#name-av:hover {
+animation-name: animNDP;
+animation-duration: 1s;
+animation-fill-mode: forwards;
+}
+
+@keyframes animNDP {
+    0%{
+        text-shadow: 0px 0px 6px black;
+    }
+  
+    100%{
+        text-shadow: 0px -3px 7px grey;
+        font-size: 28px;
+    }
+}
