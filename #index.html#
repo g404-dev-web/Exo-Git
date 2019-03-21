@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exercice Git !</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="mainbox">
+<!-- ne pas toucher au dessus -->
+
+        <!-- Duplique moi !--------------------------------------------------------------------------->
+        <div class="card">
+            <img src="http://media.npr.org/assets/news/2009/10/27/facebook1_sq-17f6f5e06d5742d8c53576f7c13d5cf7158202a9.jpg?s=16"
+                alt="" />
+            <h1>Lorem Ipsum</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum natus dolorem asperiores blanditiis magni accusamus, 
+                in nulla itaque aliquid, non similique veritatis maiores adipisci fugit, soluta illum iure eum quam!</p>
+        </div>
+        <!------------------------------------------------------------------------------------------->
+
+	<!-- Duplique moi !--------------------------------------------------------------------------->
+        <div class="card card-marc">
+	    <h1>Marc</h1>
+
+	    <div>
+		<img src="https://s14-eu5.startpage.com/cgi-bin/serveimage?url=http%3A%2F%2Ft0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcTgurevIe6PFkKL2lrSPSf2JYld3mk0drLggaf8R3yYcNVDwXGocg&sp=eb002bfb0bcc5badd891f05113c7c976&anticache=632312"
+				  alt="avatar marc" />
+	    </div>
+
+            <p>Salut c'est Marc, j'aime bien les chevaux et les ordinateurs. Hey c'est pas moi sur
+		la photo (mon voisin m'a bien fait remarqué que j'ai beaucoup moins de cheveux)...</p>
+	   
+        </div>
+        <!------------------------------------------------------------------------------------------->
+    
+<!-- ne pas toucher en dessous  -->
+    </div>
+</body>
+
+</html>
