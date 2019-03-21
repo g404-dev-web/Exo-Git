@@ -10,7 +10,7 @@
     flex-wrap: wrap;
 }
 
-.card {
+.card{
     width: 350px;
     border: 5px solid gray;
     box-shadow: 1px 1px 3px #888;
@@ -43,13 +43,17 @@ p {
 /* FIN CODE ORIGINEL */
 /* ################# */
 
+/* SHEIMA */
+#carteSheima { 
+    border-top: 10px solid yellow;
+}
+/* FIN SHEIMA */
 
 /* ############### */
 /* DEBUT CODE AXEL */
 /* ############### */
 
 #card-av {
-  
     width: 350px;
     border: 1px solid gray;
     box-shadow: 1px 1px 3px #888;
@@ -62,13 +66,13 @@ p {
 #img-av {
     border-radius: 50%;
     width: 70px;
-    margin: 10px;
 }
 
 #name-av {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-shadow: 0px 0px 5px black;
 }
+
 
 #div-name-av {
     display: block;
@@ -84,7 +88,6 @@ p {
     0%{
         text-shadow: 0px 0px 6px black;
     }
-  
     100%{
         text-shadow: 0px -3px 7px grey;
         font-size: 28px;
@@ -96,18 +99,55 @@ p {
 /* ############# */
 
 
+/* JESSICA */
+#card-jess { 
+    width: 350px;
+    border: 5px solid gray;
+    box-shadow: 1px 1px 3px #888;
+    border-top: 10px solid purple;
+    min-height: 250px;
+    padding: 10px;
+    margin: 40px;
+}
+  
+#img-jess2 {
+  border-radius: 50%;
+    width: 70px;
+    margin: 10px;
+}
+
+#h1-jess3{
+    font-weight: lighter;
+    margin-left: 100px;
+    margin-top: -70px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -30px;
+    text-align: center;
+} 
+
+.p-jess4{
+    margin: 10px;
+    font-family: segoe ui;
+    line-height: 1.4em;
+    font-size: 18px;
+    text-align: center;
+}
+/* FIN JESSICA */
+
+
 /* ############## */
 /* DEBUT CODE EMI */
 /* ############## */
 
-.cardemi{
+.cardemi {
     width: 350px;
-    border: 1px solid gray;
+    border: 1px solid teal;
     box-shadow: 1px 1px 3px #888;
-    border-top: 10px solid green;
-    min-height: 250px;
+    border-top: 30px solid teal;
+    min-height: 200px;
     padding: 10px;
     margin: 10px;
+    background-color: whitesmoke;
 }
 
 #titreemi{
@@ -122,6 +162,28 @@ p {
 /* ############ */
 /* FIN CODE EMI */
 /* ############ */
+
+
+/* PIERRE GIROU */
+
+#pierregirou h1 {
+  color: blue;
+}
+
+#pierregirou p {
+    color: blue;
+}
+
+#pierregirou {
+    background: aqua;
+}
+
+/* FIN PIERRE GIROU */
+
+#taille {
+    width: 250px;
+    margin: 20px;
+}
 
 
 /* ################# */
@@ -176,6 +238,7 @@ p {
 
 .chrisCard h1:hover {
     color: darkblue;
+
 }
 
 .chrisCard h1 {
@@ -260,10 +323,37 @@ p {
     background: #1C6EA4;
     text-shadow: 4px 4px 14px purple;
 }
-    
+
 /* ################# */
 /* FIN CODE RODRIGUE */
 /* ################# */
+
+
+/* MICKAEL */
+
+#mickael{
+    width: 350px;
+    border: 1px solid gray;
+    box-shadow: 1px 1px 3px #888;
+    border-top: 10px solid blue;
+    min-height: 250px;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* FIN MICKAEL */
+
+/* EMICATT */
+#marteau{
+    width: 350px;
+    border: 2px solid rgb(3, 25, 39);
+    box-shadow: 1px 1px 3px #888;
+    border-top: 30px solid rgb(49, 71, 97);
+    min-height: 350px;
+    padding: 20px;
+    margin: 20px;
+}
+/* FIN EMICATT */
 
 
 /* ################# */
@@ -296,6 +386,12 @@ p {
 
 .baptiste{
     border: 1px solid #FF8C00;
+    width: 350px;
+    box-shadow: 1px 1px 3px #888;
+    border-top: 30px solid rgb(49, 71, 97);
+    min-height: 350px;
+    padding: 20px;
+    margin: 20px;
 }
 
 /* ################# */
