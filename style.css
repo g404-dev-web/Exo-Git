@@ -1,6 +1,5 @@
-
-.card {
-
+.card{
+    
     width: 350px;
     border: 1px solid gray;
     box-shadow: 1px 1px 3px #888;
@@ -26,6 +25,7 @@
 
 
 .cardemi{
+
     width: 350px;
     border: 1px solid gray;
     box-shadow: 1px 1px 3px #888;
@@ -52,6 +52,16 @@
     margin: 10px; 
 }
 
+
+#xav {
+    background-color: black;
+    background-image: url(https://i.pinimg.com/originals/50/f1/fa/50f1facc8b7e54cdcfb782d11e6ce15d.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-color: purple;
+    text-shadow: 2px 2px white;
+}
 
     
 #img-av{
