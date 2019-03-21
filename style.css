@@ -1,3 +1,14 @@
+
+#card-jess{ 
+    width: 350px;
+    border: 5px solid gray;
+    box-shadow: 1px 1px 3px #888;
+    border-top: 10px solid purple;
+    min-height: 250px;
+    padding: 10px;
+    margin: 40px;
+}
+
 .card{
   
     width: 350px;
@@ -27,12 +38,20 @@
 }
 
 .cardemi{
+
     width: 350px;
-    border: 1px solid gray;
+    border: 1px solid teal;
     box-shadow: 1px 1px 3px #888;
-    border-top: 10px solid green;
-    min-height: 250px;
+    border-top: 30px solid teal;
+    min-height: 200px;
     padding: 10px;
+    margin: 10px;
+    background-color: whitesmoke;
+}
+    
+#img-jess2{
+  border-radius: 50%;
+    width: 70px;
     margin: 10px;
 }
 
@@ -129,9 +148,11 @@ img {
 
 }
 
-h1{
+#h1-jess3{
     font-weight: lighter;
     margin-left: 100px;
+    margin-top: -70px;
+    font-family: Arial, Helvetica, sans-serif;
     margin-top: -30px;
     text-align: center;
 } 
@@ -147,11 +168,11 @@ h1{
 
 }
 
-p{
+.p-jess4{
     margin: 10px;
     font-family: segoe ui;
     line-height: 1.4em;
-    font-size: 1.2em;
+    font-size: 18px;
     text-align: center;
 }
 
