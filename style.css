@@ -1,3 +1,11 @@
+#mainbox{
+    font-family: calibri;
+    box-sizing: border-box;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .card{
     width: 350px;
     border: 1px solid gray;
@@ -8,58 +16,71 @@
     margin: 10px;
 }
 
-.chris {
-    width: 350px;
-    border: 1px solid lightgray;
-    box-shadow: 1px 4px 5px #00DDFF;
-    border-top: 10px solid rebeccapurple;
-    min-height: 250px;
-    padding: 10px;
-    margin: 10px;
-    border-radius: 6px;
-}
-
-.centered {
-    text-align: center;
-}
-
 img{
     border-radius: 50%;
     width: 70px;
     margin: 10px;
 }
 
-.centered img:hover {
-    box-shadow: 5px 5px 5px #00DDFF;
-}
-
 h1{
     font-weight: lighter;
     margin-left: 100px;
-    margin-top: -60px;
-}
-
-h1:hover {
-    color: darkblue;
+    margin-top: -30px;
 }
 
 p{
-    margin: 30px 10px 10px 10px;
+    margin: 10px;
     font-family: segoe ui;
     line-height: 1.4em;
     font-size: 1.2em;
-    text-align: justify;
 }
 
-acronym {
+/* ################ */
+/* DEBUT CODE CHRIS */
+/* ################ */
+
+.chrisCard {
+    width: 350px;
+    border: 1px solid lightgray;
+    box-shadow: 1px 4px 5px #00DDFF;
+    border-top: 18px solid rebeccapurple;
+    min-height: 250px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 6px;
+}
+
+.chrisCard .centered {
+    text-align: center;
+}
+
+.chrisCard acronym {
     text-decoration: underline lightblue;
 }
 
-
-#mainbox{
-    font-family: calibri;
-    box-sizing: border-box;
-    justify-content: center;
-    display: flex;
-    flex-wrap: wrap;
+.chrisCard p {
+    text-align: justify;
+    margin-top: 20px;
+    text-indent: 1.6em;
 }
+
+.chrisCard h1:hover {
+    color: darkblue;
+}
+
+.chrisCard h1 {
+    margin-top: -60px;
+}
+
+.chrisCard .centered img:hover {
+    box-shadow: 5px 5px 5px #00DDFF;
+}
+
+.chrisCard hr {
+    border: 1px solid rebeccapurple;
+    border-radius: 5px;
+}
+
+/* ################ */
+/* FIN CODE CHRIS */
+/* ################ */
