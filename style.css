@@ -1,27 +1,27 @@
-.card{
+.card-celine{
     width: 350px;
     border: 1px solid gray;
-    box-shadow: 1px 1px 3px #888;
-    border-top: 10px solid green;
+    box-shadow: 1px 1px 3px rgb(33, 47, 240);
+    border-top: 10px solid  yellow ;
     min-height: 250px;
-    padding: 10px;
+    padding: 20px;
     margin: 10px;
 }
     
 img{
     border-radius: 50%;
-    width: 70px;
+    width: 80px;
     margin: 10px;
 }
 
 h1{
     font-weight: lighter;
-    margin-left: 100px;
-    margin-top: -70px;
+    margin-left: 150px;
+    margin-top: -40px;
 }
 
 p{
-    margin: 10px;
+    margin: 5px;
     font-family: segoe ui;
     line-height: 1.4em;
     font-size: 1.2em;
