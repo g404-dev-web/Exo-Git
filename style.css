@@ -2,13 +2,28 @@
     width: 350px;
     border: 1px solid gray;
     box-shadow: 1px 1px 3px #888;
-    border-top: 10px solid green;
+    border-top: 10px solid purple;
     min-height: 250px;
     padding: 10px;
     margin: 10px;
 }
+.card{
+    width: 350px;
+    border: 1px solid gray;
+    box-shadow: 1px 1px 3px #888;
+    border-top: 10px solid green;
+    min-height: 250px;
+    padding: 10px;
+    margin: 10px; 
+}
+
     
 #img-av{
+    border-radius: 50%;
+    width: 70px;
+    margin: 10px;
+}
+img {
     border-radius: 50%;
     width: 70px;
     margin: 10px;
@@ -21,6 +36,11 @@ h1,#name-av{
     margin-left: 100px;
     margin-top: -30px;
 
+}
+h1 {
+    font-weight: lighter;
+    margin-left: 100px;
+    margin-top: -30px;
 }
 
 
