@@ -231,7 +231,12 @@ p {
     border-right: 10px solid rgb(255, 72, 0);
     min-height: 250px;
     padding: 10px;
+<<<<<<< HEAD
+    margin-top:10px;
+    margin-bottom: 10px;
+=======
     margin: 10px; 
+>>>>>>> 1c88eedb5ce99231890a0bcb9beb9e43aa27519b
 }
 
 /* ############### */
