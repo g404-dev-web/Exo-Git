@@ -1,6 +1,3 @@
-
-
-
 .card{
   
     width: 350px;
@@ -85,6 +82,18 @@
     line-height: 1.4em;
     font-size: 1.2em;
 }
+
+#rodrigue{
+    width: 350px;
+    border: 1px solid gray;
+    box-shadow: 1px 1px 3px #888;
+    border-top: 10px solid rgb(77, 58, 88);
+    min-height: 250px;
+    padding: 10px;
+    margin: 10px;
+    background: #1C6EA4;
+    text-shadow: 4px 4px 14px purple;
+}
     
 #img-av{
     border-radius: 50%;
@@ -124,7 +133,6 @@ h1 {
     font-family: segoe ui;
     line-height: 1.4em;
     font-size: 1.2em;
-
 }
 
 #explicationemi {
