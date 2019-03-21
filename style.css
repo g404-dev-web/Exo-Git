@@ -1,4 +1,4 @@
-.card-celine{
+#card-celine{
     width: 350px;
     border: 1px solid gray;
     box-shadow: 1px 1px 3px rgb(33, 47, 240);
@@ -8,19 +8,19 @@
     margin: 10px;
 }
     
-img{
+#imgceline{
     border-radius: 50%;
     width: 80px;
     margin: 10px;
 }
 
-h1{
+#h1celine{
     font-weight: lighter;
     margin-left: 150px;
     margin-top: -40px;
 }
 
-p{
+#pceline{
     margin: 5px;
     font-family: segoe ui;
     line-height: 1.4em;
