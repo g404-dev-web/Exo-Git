@@ -3,7 +3,11 @@
     width: 350px;
     border: 1px solid gray;
     box-shadow: 1px 1px 3px #888;
-    border-top: 10px solid green;
+    border-top: 10px solid rgb(122, 0, 0);
+    border-bottom: 10px solid rgb(122, 0, 0);
+    border-left: 10px solid rgb(255, 72, 0);
+    border-right: 10px solid rgb(255, 72, 0);
+
     min-height: 250px;
     padding: 10px;
     margin: 10px;
@@ -29,6 +33,7 @@ h1{
     font-weight: lighter;
     margin-left: 100px;
     margin-top: -70px;
+    color : #FF8C00;
 }
 
 p{
@@ -44,4 +49,8 @@ p{
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
+}
+
+.baptiste{
+    border: 1px solid #FF8C00;
 }
