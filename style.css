@@ -50,6 +50,12 @@ h1 {
     line-height: 1.4em;
     font-size: 1.2em;
 }
+p{
+    margin: 10px;
+    font-family: segoe ui;
+    line-height: 1.4em;
+    font-size: 1.2em;  
+}
 
 #mainbox{
     font-family: calibri;
