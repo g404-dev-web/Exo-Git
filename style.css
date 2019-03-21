@@ -9,6 +9,11 @@
     margin: 40px;
 }
 
+#carte {    border-top: 10px solid yellow;
+
+}
+
+
 
 #card-av{
   
@@ -51,7 +56,6 @@ img{
     padding: 10px;
     margin: 10px; 
 }
-
 
 #xav {
   
@@ -96,6 +100,7 @@ img{
     background: #1C6EA4;
     text-shadow: 4px 4px 14px purple;
 }
+
     
 #img-av{
     border-radius: 50%;
@@ -106,13 +111,23 @@ img {
     border-radius: 50%;
     width: 70px;
     margin: 10px;
+    
+    
+}
+#taille {
+
+    width: 250px;
+    margin: 20px;
+
+
 }
 
 h1{
     font-weight: lighter;
     margin-left: 100px;
     margin-top: -30px;
-}
+    text-align: center;
+} 
 
 #name-av{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -122,6 +137,7 @@ h1{
 #titreemi{
     color: #A42F85;
     text-shadow: 1px 2px 2px #A4108B;
+
 }
 
 p{
@@ -129,7 +145,9 @@ p{
     font-family: segoe ui;
     line-height: 1.4em;
     font-size: 1.2em;
+    text-align: center;
 }
+
 
 #explicationemi {
     color: #C80581;
@@ -164,6 +182,7 @@ p{
 
 .chrisCard h1:hover {
     color: darkblue;
+
 }
 
 .chrisCard h1 {
