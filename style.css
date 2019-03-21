@@ -65,6 +65,27 @@
     text-shadow: 2px 2px white;
 }
 
+#kylianCard{
+    width: 350px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("https://4kwallpapersimages.com/wp-content/uploads/2017/12/7K-Wallpaper-Black-Goku-Dragon-Ball-Super-8k-800x600.jpg");
+    background-color: black;
+    border: 1px solid gray;
+    box-shadow: 1px 1px 3px #888;
+    border-top: 10px solid darkred;
+    min-height: 250px;
+    padding: 10px;
+    margin: 10px;
+    text-shadow: 1px 1px 12px red;
+    color: orange;
+    margin: 10px;
+    font-family: segoe ui;
+    line-height: 1.4em;
+    font-size: 1.2em;
+}
+    
 #img-av{
     border-radius: 50%;
     width: 70px;
