@@ -1,4 +1,15 @@
-.card{
+.card {
+
+    width: 350px;
+    border: 1px solid gray;
+    box-shadow: 1px 1px 3px #888;
+    border-top: 10px solid green;
+    min-height: 250px;
+    padding: 10px;
+    margin: 10px;
+}
+
+#rodrigue{
     width: 350px;
     border: 1px solid gray;
     box-shadow: 1px 1px 3px #888;
@@ -7,9 +18,7 @@
     padding: 10px;
     margin: 10px;
     background: #1C6EA4;
-    background: -moz-radial-gradient(center, #1C6EA4 0%, #2388CB 50%, #144E75 100%);
-    background: -webkit-radial-gradient(center, #1C6EA4 0%, #2388CB 50%, #144E75 100%);
-    background: radial-gradient(ellipse at center, #1C6EA4 0%, #2388CB 50%, #144E75 100%);
+    text-shadow: 4px 4px 14px purple;
 }
     
 img{
@@ -22,9 +31,6 @@ h1{
     font-weight: lighter;
     margin-left: 100px;
     margin-top: -70px;
-    color: purple;
-    font-family: helvetica;
-    text-shadow: 1px 2px 2px rgb(36, 46, 185);
 }
 
 p{
@@ -32,7 +38,6 @@ p{
     font-family: segoe ui;
     line-height: 1.4em;
     font-size: 1.2em;
-    text-align: center;
     
 }
 
