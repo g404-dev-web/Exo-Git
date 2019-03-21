@@ -1,31 +1,31 @@
 
-.card {
 
+
+.card{
+  
     width: 350px;
-    border: 1px solid gray;
+    border: 5px solid gray;
     box-shadow: 1px 1px 3px #888;
-    border-top: 10px solid green;
+    border-top: 10px solid purple;
     min-height: 250px;
     padding: 10px;
-    margin: 10px;
+    margin: 40px;
 }
 
 
 #card-av{
-
+  
     width: 350px;
     border: 1px solid gray;
     box-shadow: 1px 1px 3px #888;
-
     border-top: 10px solid purple;
-
     min-height: 250px;
     padding: 10px;
     margin: 10px;
 }
 
-
 .cardemi{
+  
     width: 350px;
     border: 1px solid gray;
     box-shadow: 1px 1px 3px #888;
@@ -40,6 +40,7 @@
 }
 
 .mathis{
+  
     width: 350px;
     border: 1px solid green;
     box-shadow: 1px 1px 3px #888;
@@ -53,7 +54,17 @@
 }
 
 
-    
+#xav {
+  
+    background-color: black;
+    background-image: url(https://i.pinimg.com/originals/50/f1/fa/50f1facc8b7e54cdcfb782d11e6ce15d.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-color: purple;
+    text-shadow: 2px 2px white;
+}
+
 #img-av{
     border-radius: 50%;
     width: 70px;
@@ -98,6 +109,7 @@ h1 {
 #explicationemi {
     color: #C80581;
 }
+
 p{
     margin: 10px;
     font-family: segoe ui;
@@ -111,35 +123,47 @@ p{
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
-
 }
 
+.elodycard{
+    width: 350px;
+    border: 5px solid gray;
+    box-shadow: 1px 1px 3px #888;
+    border-top: 10px solid purple;
+    min-height: 250px;
+    padding: 10px;
+    margin: 40px;
+}
+
+img{
+    border-radius: 80%;
+    width: 70px;
+    margin: 10px;
+}
 
 #div-name-av {
     display: block;
-
-    
 }
+
 #name-av:hover {
 animation-name: animNDP;
 animation-duration: 1s;
 animation-fill-mode: forwards;
-
 }
+
 @keyframes animNDP {
     0%{
         text-shadow: 0px 0px 6px black;
-
-
     }
+  
     100%{
         text-shadow: 0px -3px 7px grey;
         font-size: 28px;
-        
     }
 }
 
 .baptiste{
     border: 1px solid #FF8C00;
 }
+
 
