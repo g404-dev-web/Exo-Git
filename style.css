@@ -1,4 +1,4 @@
-.cedriccard{
+.card{
     width: 350px;
     border: 1px solid gray;
     box-shadow: 1px 1px 3px #888;
@@ -10,7 +10,7 @@
     
 img{
     border-radius: 50%;
-    width: 100px;
+    width: 70px;
     margin: 10px;
 }
 
@@ -18,16 +18,14 @@ h1{
     font-weight: lighter;
     margin-left: 130px;
     margin-top: -70px;
-    color: blue
-}
+   }
 
 p{
     margin: 10px;
     font-family: segoe ui;
     line-height: 1.4em;
     font-size: 1.2em;
-    color: deeppink
-}
+    }
 
 #mainbox{
     font-family: calibri;
@@ -35,4 +33,16 @@ p{
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
+}
+
+.cedriccard > img{
+
+}
+
+.cedriccard > h1 {
+
+}
+
+.cedriccard > p{
+
 }
