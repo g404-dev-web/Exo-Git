@@ -10,14 +10,15 @@
     
 img{
     border-radius: 50%;
-    width: 70px;
+    width: 100px;
     margin: 10px;
 }
 
 h1{
     font-weight: lighter;
-    margin-left: 100px;
+    margin-left: 130px;
     margin-top: -70px;
+    color: blue
 }
 
 p{
@@ -25,6 +26,7 @@ p{
     font-family: segoe ui;
     line-height: 1.4em;
     font-size: 1.2em;
+    color: deeppink
 }
 
 #mainbox{
