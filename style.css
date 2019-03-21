@@ -15,7 +15,7 @@
 .card{
 
     width: 350px;
-    border: 5px solid gray;
+    border: 1px solid gray;
     box-shadow: 1px 1px 3px #888;
     border-top: 10px solid purple;
     min-height: 250px;
