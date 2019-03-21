@@ -1,15 +1,15 @@
 .card{
     width: 350px;
-    border: 1px solid gray;
+    border: 5px solid gray;
     box-shadow: 1px 1px 3px #888;
-    border-top: 10px solid green;
+    border-top: 10px solid purple;
     min-height: 250px;
     padding: 10px;
-    margin: 10px;
+    margin: 40px;
 }
     
 img{
-    border-radius: 50%;
+    border-radius: 80%;
     width: 70px;
     margin: 10px;
 }
