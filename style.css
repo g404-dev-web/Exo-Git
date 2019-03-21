@@ -1,30 +1,32 @@
-.card{
+.cardJess{
     width: 350px;
-    border: 1px solid gray;
+    border: 1px solid teal;
     box-shadow: 1px 1px 3px #888;
-    border-top: 20px solid purple;
-    min-height: 250px;
+    border-top: 30px solid teal;
+    min-height: 200px;
     padding: 10px;
     margin: 10px;
+    background-color: whitesmoke;
 }
     
-img{
+.imgjess2{
     border-radius: 50%;
     width: 70px;
     margin: 10px;
 }
 
-h2{
+.h2jess3{
     font-weight: lighter;
     margin-left: 100px;
     margin-top: -70px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-p{
+.pjess4{
     margin: 10px;
     font-family: segoe ui;
     line-height: 1.4em;
-    font-size: 1.2em;
+    font-size: 18px;
     text-align: center;
 }
 
