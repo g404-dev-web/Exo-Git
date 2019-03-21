@@ -60,6 +60,8 @@
     background-position: center;
     background-repeat: no-repeat;
     border-color: purple;
+    width: 350px;
+    max-height: 250px;
     text-shadow: 2px 2px white;
 }
 
