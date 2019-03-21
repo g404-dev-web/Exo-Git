@@ -104,6 +104,7 @@ p {
 
 #div-name-av {
     display: block;
+
 }
 
 #name-av:hover {
@@ -292,6 +293,7 @@ p {
 /* DEBUT CODE XAV */
 /* ############## */
 
+
 #xav {
     background-color: black;
     background-image: url(https://i.pinimg.com/originals/50/f1/fa/50f1facc8b7e54cdcfb782d11e6ce15d.jpg);
@@ -299,9 +301,10 @@ p {
     background-position: center;
     background-repeat: no-repeat;
     border-color: purple;
+    width: 350px;
+    max-height: 250px;
     text-shadow: 2px 2px white;
 }
-
 /* ############ */
 /* FIN CODE XAV */
 /* ############ */
