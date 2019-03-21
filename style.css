@@ -1,4 +1,4 @@
-.card{
+.card {
     width: 350px;
     border: 1px solid gray;
     box-shadow: 1px 1px 3px #888;
@@ -27,6 +27,7 @@ p{
     font-size: 1.2em;
     }
 
+
 #mainbox{
     font-family: calibri;
     box-sizing: border-box;
@@ -35,14 +36,17 @@ p{
     flex-wrap: wrap;
 }
 
-.cedriccard > img{
-
+#cedric img {
+    width: 100px; 
 }
 
-.cedriccard > h1 {
-
+#cedric h1 {
+    text-align: center;
+    color: blue;
 }
 
-.cedriccard > p{
-
+#cedric p {
+    margin-top: 55px;
+    text-align: center;
+    color: green;
 }
