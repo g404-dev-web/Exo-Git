@@ -255,13 +255,14 @@ p {
     border-top: 18px solid rebeccapurple;
     min-height: 250px;
     padding: 10px;
+    border-radius: 6px;
 }
 
 .chrisCard .centered {
     text-align: center;
 }
 
-.chrisCard acronym {
+.chrisCard span {
     text-decoration: underline lightblue;
 }
 
