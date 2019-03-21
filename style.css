@@ -1,4 +1,18 @@
+
+.card {
+
+    width: 350px;
+    border: 1px solid gray;
+    box-shadow: 1px 1px 3px #888;
+    border-top: 10px solid green;
+    min-height: 250px;
+    padding: 10px;
+    margin: 10px;
+}
+
+
 #card-av{
+
     width: 350px;
     border: 1px solid gray;
     box-shadow: 1px 1px 3px #888;
@@ -25,7 +39,7 @@
     background: radial-gradient(ellipse at center, #A4569A 0%, #C191CB 55%, #672F75 100%);
 }
 
-.card{
+.mathis{
     width: 350px;
     border: 1px solid green;
     box-shadow: 1px 1px 3px #888;
@@ -33,7 +47,6 @@
     border-bottom: 10px solid rgb(122, 0, 0);
     border-left: 10px solid rgb(255, 72, 0);
     border-right: 10px solid rgb(255, 72, 0);
-
     min-height: 250px;
     padding: 10px;
     margin: 10px; 
@@ -98,6 +111,7 @@ p{
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
+
 }
 
 
