@@ -1,3 +1,4 @@
+
 .card {
 
     width: 350px;
@@ -9,9 +10,38 @@
     margin: 10px;
 }
 
-.mathis{
+
+#card-av{
+
     width: 350px;
     border: 1px solid gray;
+    box-shadow: 1px 1px 3px #888;
+
+    border-top: 10px solid purple;
+
+    min-height: 250px;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+.cardemi{
+    width: 350px;
+    border: 1px solid gray;
+    box-shadow: 1px 1px 3px #888;
+    border-top: 10px solid #A42F85;
+    min-height: 250px;
+    padding: 10px;
+    margin: 10px;
+    background: #A4569A;
+    background: -moz-radial-gradient(center, #A4569A 0%, #C191CB 55%, #672F75 100%);
+    background: -webkit-radial-gradient(center, #A4569A 0%, #C191CB 55%, #672F75 100%);
+    background: radial-gradient(ellipse at center, #A4569A 0%, #C191CB 55%, #672F75 100%);
+}
+
+.mathis{
+    width: 350px;
+    border: 1px solid green;
     box-shadow: 1px 1px 3px #888;
     border-top: 10px solid rgb(122, 0, 0);
     border-bottom: 10px solid rgb(122, 0, 0);
@@ -19,26 +49,60 @@
     border-right: 10px solid rgb(255, 72, 0);
     min-height: 250px;
     padding: 10px;
+    margin: 10px; 
+}
+
+
+    
+#img-av{
+    border-radius: 50%;
+    width: 70px;
     margin: 10px;
 }
-    
-img{
+img {
     border-radius: 50%;
     width: 70px;
     margin: 10px;
 }
 
-h1{
+h1,#name-av{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 0px 0px 5px black;
     font-weight: lighter;
     margin-left: 100px;
+    margin-top: -30px;
+
+}
+h1 {
+    font-weight: lighter;
+    margin-left: 100px;
+
     margin-top: -70px;
+
+
+}
+#titreemi{
+    color: #A42F85;
+    text-shadow: 1px 2px 2px #A4108B;
 }
 
-p{
+#p-av{
+
     margin: 10px;
     font-family: segoe ui;
     line-height: 1.4em;
     font-size: 1.2em;
+
+}
+
+#explicationemi {
+    color: #C80581;
+}
+p{
+    margin: 10px;
+    font-family: segoe ui;
+    line-height: 1.4em;
+    font-size: 1.2em;  
 }
 
 #mainbox{
@@ -47,4 +111,35 @@ p{
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
+
 }
+
+
+#div-name-av {
+    display: block;
+
+    
+}
+#name-av:hover {
+animation-name: animNDP;
+animation-duration: 1s;
+animation-fill-mode: forwards;
+
+}
+@keyframes animNDP {
+    0%{
+        text-shadow: 0px 0px 6px black;
+
+
+    }
+    100%{
+        text-shadow: 0px -3px 7px grey;
+        font-size: 28px;
+        
+    }
+}
+
+.baptiste{
+    border: 1px solid #FF8C00;
+}
+
