@@ -1,4 +1,4 @@
-.cardJess{
+#cardJess{
     width: 350px;
     border: 1px solid teal;
     box-shadow: 1px 1px 3px #888;
@@ -9,20 +9,20 @@
     background-color: whitesmoke;
 }
     
-.imgjess2{
+#imgjess2{
     border-radius: 50%;
     width: 70px;
     margin: 10px;
 }
 
-.h2jess3{
+#h2jess3{
     font-weight: lighter;
     margin-left: 100px;
     margin-top: -70px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.pjess4{
+#pjess4{
     margin: 10px;
     font-family: segoe ui;
     line-height: 1.4em;
