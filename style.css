@@ -2,7 +2,7 @@
     width: 350px;
     border: 1px solid gray;
     box-shadow: 1px 1px 3px #888;
-    border-top: 10px solid green;
+    border-top: 10px solid lightblue;
     min-height: 250px;
     padding: 10px;
     margin: 10px;
@@ -34,3 +34,4 @@ p{
     display: flex;
     flex-wrap: wrap;
 }
+
