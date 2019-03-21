@@ -2,7 +2,7 @@
     width: 350px;
     border: 1px solid gray;
     box-shadow: 1px 1px 3px #888;
-    border-top: 10px solid green;
+    border-top: 10px solid purple;
     min-height: 250px;
     padding: 10px;
     margin: 10px;
@@ -14,7 +14,7 @@ img{
     margin: 10px;
 }
 
-h1{
+h2{
     font-weight: lighter;
     margin-left: 100px;
     margin-top: -70px;
@@ -25,6 +25,7 @@ p{
     font-family: segoe ui;
     line-height: 1.4em;
     font-size: 1.2em;
+    text-align: center;
 }
 
 #mainbox{
