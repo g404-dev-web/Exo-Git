@@ -2,14 +2,32 @@
     width: 350px;
     border: 1px solid gray;
     box-shadow: 1px 1px 3px #888;
+
     border-top: 10px solid purple;
+
     min-height: 250px;
     padding: 10px;
     margin: 10px;
 }
-.card{
+
+
+.cardemi{
     width: 350px;
     border: 1px solid gray;
+    box-shadow: 1px 1px 3px #888;
+    border-top: 10px solid #A42F85;
+    min-height: 250px;
+    padding: 10px;
+    margin: 10px;
+    background: #A4569A;
+    background: -moz-radial-gradient(center, #A4569A 0%, #C191CB 55%, #672F75 100%);
+    background: -webkit-radial-gradient(center, #A4569A 0%, #C191CB 55%, #672F75 100%);
+    background: radial-gradient(ellipse at center, #A4569A 0%, #C191CB 55%, #672F75 100%);
+}
+
+.card{
+    width: 350px;
+    border: 1px solid green;
     box-shadow: 1px 1px 3px #888;
     border-top: 10px solid rgb(122, 0, 0);
     border-bottom: 10px solid rgb(122, 0, 0);
@@ -20,6 +38,7 @@
     padding: 10px;
     margin: 10px; 
 }
+
 
     
 #img-av{
@@ -46,16 +65,25 @@ h1 {
     margin-left: 100px;
 
     margin-top: -70px;
-    color : #FF8C00;
+
 
 }
-
+#titreemi{
+    color: #A42F85;
+    text-shadow: 1px 2px 2px #A4108B;
+}
 
 #p-av{
+
     margin: 10px;
     font-family: segoe ui;
     line-height: 1.4em;
     font-size: 1.2em;
+
+}
+
+#explicationemi {
+    color: #C80581;
 }
 p{
     margin: 10px;
