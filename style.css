@@ -45,6 +45,12 @@ p{
     text-align: center;
     align-content: center;
     border-radius: 7px;
+    background-image: url('https://resize-parismatch.ladmedia.fr/r/940,628,center-middle/img/var/news/storage/images/paris-match/vivre/voyage/top-5-les-meilleures-stations-pour-partir-a-la-montaggne-cet-ete-1311686/21801974-3-fre-FR/Top-5-les-meilleures-stations-pour-partir-a-la-montagne-en-ete.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 0;
 }
 
 .card-marc h1{
@@ -54,10 +60,29 @@ p{
 
 .card-marc img{
     width: 50%;
-    border: solid 3px grey;
+    border: solid 4px grey;
+    animation: appear 2.5s ease-in;
+}
+
+.card-marc img:hover{
+    transform: scale(1.2);
+    transition: all 0.5s ease;
+
+}
+
+@keyframes appear{
+    0% { opacity: 0;}
+    100% { opacity: 1;}
 }
 
 .card-marc p{
     text-align: justify;
+    background-color: rgba(40,40,40,0.5);
+    width: calc(100%-10px);
+    margin: 0;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
 }
+
 /* Fin Carte de Marc */
