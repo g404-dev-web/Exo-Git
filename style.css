@@ -22,6 +22,7 @@ h1{
     font-weight: lighter;
     margin-left: 100px;
     margin-top: -70px;
+    color : #FF8C00;
 }
 
 p{
@@ -39,3 +40,6 @@ p{
     flex-wrap: wrap;
 }
 
+.baptiste{
+    border: 1px solid #FF8C00;
+}
