@@ -8,20 +8,6 @@
     margin: 10px;
 }
 
-.card-marc{
-    border-color: blue;
-    font-size: 0.8em;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-content: center;
-}
-
-.card-marc h1{
-    margin-top: 0;
-    margin-left: 0;
-}
-
 img{
     border-radius: 50%;
     width: 70px;
@@ -47,4 +33,30 @@ p{
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
+}
+
+
+/* Carte de Marc */
+.card-marc{
+    border-color: blue;
+    font-size: 0.8em;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-content: center;
+    border-radius: 7px;
+}
+
+.card-marc h1{
+    margin-top: 0;
+    margin-left: 0;
+}
+
+.card-marc img{
+    width: 50%;
+    border: solid 3px grey;
+}
+
+.card-marc p{
+    text-align: justify;
 }
