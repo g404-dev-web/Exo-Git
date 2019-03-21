@@ -1,5 +1,16 @@
-.card{
-  
+/* ################### */
+/* DEBUT CODE ORIGINEL */
+/* ################### */
+
+#mainbox {
+    font-family: calibri;
+    box-sizing: border-box;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
     width: 350px;
     border: 5px solid gray;
     box-shadow: 1px 1px 3px #888;
@@ -9,8 +20,35 @@
     margin: 40px;
 }
 
+img {
+    border-radius: 50%;
+    width: 70px;
+    margin: 10px;
+}
 
-#card-av{
+h1 {
+    font-weight: lighter;
+    margin-left: 100px;
+    margin-top: -30px;
+}
+
+p {
+    margin: 10px;
+    font-family: segoe ui;
+    line-height: 1.4em;
+    font-size: 1.2em;
+}
+
+/* ################# */
+/* FIN CODE ORIGINEL */
+/* ################# */
+
+
+/* ############### */
+/* DEBUT CODE AXEL */
+/* ############### */
+
+#card-av {
   
     width: 350px;
     border: 1px solid gray;
@@ -20,6 +58,47 @@
     padding: 10px;
     margin: 10px;
 }
+
+#img-av {
+    border-radius: 50%;
+    width: 70px;
+    margin: 10px;
+}
+
+#name-av {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 0px 0px 5px black;
+}
+
+#div-name-av {
+    display: block;
+}
+
+#name-av:hover {
+    animation-name: animNDP;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes animNDP {
+    0%{
+        text-shadow: 0px 0px 6px black;
+    }
+  
+    100%{
+        text-shadow: 0px -3px 7px grey;
+        font-size: 28px;
+    }
+}
+
+/* ############# */
+/* FIN CODE AXEL */
+/* ############# */
+
+
+/* ############## */
+/* DEBUT CODE EMI */
+/* ############## */
 
 .cardemi{
     width: 350px;
@@ -31,12 +110,23 @@
     margin: 10px;
 }
 
-img{
-    background: #A4569A;
-    background: -moz-radial-gradient(center, #A4569A 0%, #C191CB 55%, #672F75 100%);
-    background: -webkit-radial-gradient(center, #A4569A 0%, #C191CB 55%, #672F75 100%);
-    background: radial-gradient(ellipse at center, #A4569A 0%, #C191CB 55%, #672F75 100%);
+#titreemi{
+    color: #A42F85;
+    text-shadow: 1px 2px 2px #A4108B;
 }
+
+#explicationemi {
+    color: #C80581;
+}
+
+/* ############ */
+/* FIN CODE EMI */
+/* ############ */
+
+
+/* ################# */
+/* DEBUT CODE MATHIS */
+/* ################# */
 
 .mathis{
   
@@ -52,88 +142,10 @@ img{
     margin: 10px; 
 }
 
+/* ############### */
+/* FIN CODE MATHIS */
+/* ############### */
 
-#xav {
-  
-    background-color: black;
-    background-image: url(https://i.pinimg.com/originals/50/f1/fa/50f1facc8b7e54cdcfb782d11e6ce15d.jpg);
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    border-color: purple;
-    text-shadow: 2px 2px white;
-}
-
-#kylianCard{
-    width: 350px;
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-image: url("https://4kwallpapersimages.com/wp-content/uploads/2017/12/7K-Wallpaper-Black-Goku-Dragon-Ball-Super-8k-800x600.jpg");
-    background-color: black;
-    border: 1px solid gray;
-    box-shadow: 1px 1px 3px #888;
-    border-top: 10px solid darkred;
-    min-height: 250px;
-    padding: 10px;
-    margin: 10px;
-    text-shadow: 1px 1px 12px red;
-    color: orange;
-    margin: 10px;
-    font-family: segoe ui;
-    line-height: 1.4em;
-    font-size: 1.2em;
-}
-
-#rodrigue{
-    width: 350px;
-    border: 1px solid gray;
-    box-shadow: 1px 1px 3px #888;
-    border-top: 10px solid rgb(77, 58, 88);
-    min-height: 250px;
-    padding: 10px;
-    margin: 10px;
-    background: #1C6EA4;
-    text-shadow: 4px 4px 14px purple;
-}
-    
-#img-av{
-    border-radius: 50%;
-    width: 70px;
-    margin: 10px;
-}
-img {
-    border-radius: 50%;
-    width: 70px;
-    margin: 10px;
-}
-
-h1{
-    font-weight: lighter;
-    margin-left: 100px;
-    margin-top: -30px;
-}
-
-#name-av{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    text-shadow: 0px 0px 5px black;
-}
-
-#titreemi{
-    color: #A42F85;
-    text-shadow: 1px 2px 2px #A4108B;
-}
-
-p{
-    margin: 10px;
-    font-family: segoe ui;
-    line-height: 1.4em;
-    font-size: 1.2em;
-}
-
-#explicationemi {
-    color: #C80581;
-}
 
 /* ################ */
 /* DEBUT CODE CHRIS */
@@ -179,18 +191,85 @@ p{
     border-radius: 5px;
 }
 
-/* ################ */
+/* ############## */
 /* FIN CODE CHRIS */
-/* ################ */
+/* ############## */
 
-#mainbox{
-    font-family: calibri;
-    box-sizing: border-box;
-    justify-content: center;
-    display: flex;
-    flex-wrap: wrap;
+
+/* ############## */
+/* DEBUT CODE XAV */
+/* ############## */
+
+#xav {
+    background-color: black;
+    background-image: url(https://i.pinimg.com/originals/50/f1/fa/50f1facc8b7e54cdcfb782d11e6ce15d.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-color: purple;
+    text-shadow: 2px 2px white;
 }
-  
+
+/* ############ */
+/* FIN CODE XAV */
+/* ############ */
+
+
+/* ################# */
+/* DEBUT CODE KYLIAN */
+/* ################# */
+
+#kylianCard{
+    width: 350px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("https://4kwallpapersimages.com/wp-content/uploads/2017/12/7K-Wallpaper-Black-Goku-Dragon-Ball-Super-8k-800x600.jpg");
+    background-color: black;
+    border: 1px solid gray;
+    box-shadow: 1px 1px 3px #888;
+    border-top: 10px solid darkred;
+    min-height: 250px;
+    padding: 10px;
+    margin: 10px;
+    text-shadow: 1px 1px 12px red;
+    color: orange;
+    margin: 10px;
+    font-family: segoe ui;
+    line-height: 1.4em;
+    font-size: 1.2em;
+}
+
+/* ############### */
+/* FIN CODE KYLIAN */
+/* ############### */
+
+
+/* ################### */
+/* DEBUT CODE RODRIGUE */
+/* ################### */
+
+#rodrigue{
+    width: 350px;
+    border: 1px solid gray;
+    box-shadow: 1px 1px 3px #888;
+    border-top: 10px solid rgb(77, 58, 88);
+    min-height: 250px;
+    padding: 10px;
+    margin: 10px;
+    background: #1C6EA4;
+    text-shadow: 4px 4px 14px purple;
+}
+    
+/* ################# */
+/* FIN CODE RODRIGUE */
+/* ################# */
+
+
+/* ################# */
+/* DEBUT CODE CEDRIC */
+/* ################# */
+
 #cedric img {
     width: 100px; 
 }
@@ -206,9 +285,27 @@ p{
     color: green;
 }
 
+/* ############### */
+/* FIN CODE CEDRIC */
+/* ############### */
+
+
+/* ################### */
+/* DEBUT CODE BAPTISTE */
+/* ################### */
+
 .baptiste{
     border: 1px solid #FF8C00;
 }
+
+/* ################# */
+/* FIN CODE BAPTISTE */
+/* ################# */
+
+
+/* ################ */
+/* DEBUT CODE ELODY */
+/* ################ */
 
 .elodycard{
     width: 350px;
@@ -220,29 +317,6 @@ p{
     margin: 40px;
 }
 
-img{
-    border-radius: 80%;
-    width: 70px;
-    margin: 10px;
-}
-
-#div-name-av {
-    display: block;
-}
-
-#name-av:hover {
-animation-name: animNDP;
-animation-duration: 1s;
-animation-fill-mode: forwards;
-}
-
-@keyframes animNDP {
-    0%{
-        text-shadow: 0px 0px 6px black;
-    }
-  
-    100%{
-        text-shadow: 0px -3px 7px grey;
-        font-size: 28px;
-    }
-}
+/* ############## */
+/* FIN CODE ELODY */
+/* ############## */
