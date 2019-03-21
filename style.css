@@ -89,6 +89,11 @@ img{
     font-size: 1.2em;
 }
 
+#pierregirou h1{
+color: blue;
+}
+
+
 #rodrigue{
     width: 350px;
     border: 1px solid gray;
@@ -198,9 +203,15 @@ p{
     border-radius: 5px;
 }
 
+
+#pierregirou p{
+    color: blue;
+}
+
 /* ################ */
 /* FIN CODE CHRIS */
 /* ################ */
+
 
 #mainbox{
     font-family: calibri;
@@ -228,6 +239,11 @@ p{
 .baptiste{
     border: 1px solid #FF8C00;
 }
+
+#pierregirou {
+    background: aqua;
+}
+
 
 .elodycard{
     width: 350px;
@@ -265,3 +281,8 @@ animation-fill-mode: forwards;
         font-size: 28px;
     }
 }
+
+.baptiste{
+    border: 1px solid #FF8C00;
+}
+
