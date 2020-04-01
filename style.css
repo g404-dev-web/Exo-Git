@@ -535,3 +535,17 @@ p {
 /* ################ */
 /* FIN CODE GREGORY */
 /* ################ */
+
+
+
+/* DEBUT CODE LUCAS*/
+
+.lucas{
+    
+    background-color: yellowgreen;
+    border: solid black 1px;
+    box-shadow: 2px 2px 3px red;
+    text-align: center;
+    padding: 10px;
+    width: 300px;
+}
