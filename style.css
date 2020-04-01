@@ -45,6 +45,32 @@ p {
 /* ################# */
 /* FIN CODE ORIGINEL */
 /* ################# */
+
+/* Time to shine */
+
+#Audrene {
+    background: radial-gradient(circle at bottom right, rgb(67, 69, 163), rgb(87, 87, 109) 0, rgb(255, 255, 255) 100%)
+}
+
+.mon-container > h1 {
+    text-align: right;
+    font-style: italic;
+    color: rebeccapurple;
+}
+
+.mon-container > P {
+    text-align: center;
+}
+
+#Audrene > img {
+    width: 200px;
+    margin-left: 5px;
+    margin-top: 5px;
+    box-shadow: 5px 5px 2px rgba(70, 3, 3, 0.555);
+}
+
+/* Fini to shine */
+
 /* Début code Olivier */
 .card-olivier{
     width: 350px;
