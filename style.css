@@ -535,3 +535,44 @@ p {
 /* ################ */
 /* FIN CODE GREGORY */
 /* ################ */
+
+
+
+/* ################ */
+/* DEBUT CODE ESTHER */
+/* ################ */
+
+.cardEsther{
+    width: 350px;
+    background-color: rgb(188, 238, 108);
+    border: 1px dotted rgb(6, 58, 36);
+    box-shadow: 1px 3px 3px rgb(37, 196, 58);
+    border-top: 10px solid rgb(6, 141, 119);
+    padding: 10px;
+    margin: 10px;
+    text-shadow: 1px 2px 12px rgb(41, 40, 40);
+    color: rgb(4, 51, 28);
+    margin-top: 100px;
+    padding-top: 70px;
+    line-height: 1.4em;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.cardEsther img{
+    width:80px;
+    float: left;
+    padding-right: 10px;
+   position: relative;
+   padding-bottom: 30px;
+
+}
+
+
+
+
+
+
+/* ################ */
+/* FIN CODE ESTHER */
+/* ################ */
