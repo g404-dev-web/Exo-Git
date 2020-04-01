@@ -231,12 +231,7 @@ p {
     border-right: 10px solid rgb(255, 72, 0);
     min-height: 250px;
     padding: 10px;
-<<<<<<< HEAD
-    margin-top:10px;
-    margin-bottom: 10px;
-=======
     margin: 10px; 
->>>>>>> 1c88eedb5ce99231890a0bcb9beb9e43aa27519b
 }
 
 /* ############### */
@@ -506,3 +501,41 @@ p {
 /* ############## */
 /* FIN CODE ELODY */
 /* ############## */
+
+/* ################## */
+/* DEBUT CODE GREGORY */
+/* ################## */
+
+.card-greg {
+    width: 350px;
+    color: greenyellow;
+    font-weight: 700;
+    border: 5px solid gray;
+    border: 1px solid lightgray;
+    border-top: 2rem solid rgb(255, 0, 230);
+    min-height: 250px;
+    padding: 10px;
+    margin: 20px;
+    width: 350px;
+    box-shadow: 10px 10px 5px -4px rgba(46,107,143,0.42);
+    min-height: 250px;
+    padding: 10px;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-content: center;
+}
+
+.card-greg h1 {
+    padding: 0;
+    margin: 1rem;
+
+}
+.card-greg img {
+    border-radius: 0;
+    width: 96px;
+}
+/* ################ */
+/* FIN CODE GREGORY */
+/* ################ */
