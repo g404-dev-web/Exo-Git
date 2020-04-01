@@ -73,7 +73,7 @@ p {
 /*fin code céline*/
 
 /* SHEIMA */
-#carteSheima { 
+#carteSheima {
     border-top: 10px solid yellow;
 }
 /* FIN SHEIMA */
@@ -129,7 +129,7 @@ p {
 
 
 /* JESSICA */
-#card-jess { 
+#card-jess {
     width: 350px;
     border: 5px solid gray;
     box-shadow: 1px 1px 3px #888;
@@ -138,7 +138,7 @@ p {
     padding: 10px;
     margin: 40px;
 }
-  
+
 #img-jess2 {
   border-radius: 50%;
     width: 70px;
@@ -152,7 +152,7 @@ p {
     font-family: Arial, Helvetica, sans-serif;
     margin-top: -30px;
     text-align: center;
-} 
+}
 
 .p-jess4{
     margin: 10px;
@@ -163,6 +163,46 @@ p {
 
 }
 /* FIN JESSICA */
+
+/* Antonin */
+.card-antonin {
+    width: 350px;
+    background-color: #D2D2D3;
+    color: black;
+    font-weight: 700;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    margin: 20px;
+    min-height: 250px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-content: center;
+    box-shadow: 2px 2px 20px 3px;
+}
+
+.card-antonin p{
+  font-family: Comic Sans MS;
+  font-style: oblique;
+  font-weight: lighter;
+}
+.card-antonin h1 {
+  font-family: Comic Sans MS;
+  font-style: oblique;
+  font-weight: lighter;
+  text-decoration: underline;
+    padding: 0;
+    margin: 1rem;
+
+}
+
+.card-antonin img{
+  height: 120px;
+  width: 120px;
+}
+
+/* FIN Antonin */
 
 
 /* ############## */
@@ -221,7 +261,7 @@ p {
 /* ################# */
 
 .mathis{
-  
+
     width: 350px;
     border: 1px solid green;
     box-shadow: 1px 1px 3px #888;
@@ -231,7 +271,7 @@ p {
     border-right: 10px solid rgb(255, 72, 0);
     min-height: 250px;
     padding: 10px;
-    margin: 10px; 
+    margin: 10px;
 }
 
 /* ############### */
@@ -446,7 +486,7 @@ p {
 /* ################# */
 
 #cedric img {
-    width: 100px; 
+    width: 100px;
 }
 
 #cedric h1 {
