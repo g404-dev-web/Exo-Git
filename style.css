@@ -1,5 +1,3 @@
-
-
 /* ################### */
 /* DEBUT CODE ORIGINEL */
 /* ################### */
@@ -12,7 +10,7 @@
     flex-wrap: wrap;
 }
 
-.card{
+.card {
 
     width: 350px;
     border: 1px solid gray;
@@ -48,34 +46,36 @@ p {
 
 
 /*debut code céline*/
-#card-celine{
+#card-celine {
     width: 350px;
     border: 1px solid gray;
     box-shadow: 1px 1px 3px rgb(33, 47, 240);
-    border-top: 10px solid  yellow ;
+    border-top: 10px solid yellow;
 }
 
-#imgceline{
+#imgceline {
     border-radius: 50%;
     width: 80px;
     margin: 10px;
 }
 
-#h1celine{
+#h1celine {
     font-weight: lighter;
     margin-left: 150px;
     margin-top: -40px;
 }
 
-#pceline{
+#pceline {
     margin: 5px;
 }
+
 /*fin code céline*/
 
 /* SHEIMA */
-#carteSheima { 
+#carteSheima {
     border-top: 10px solid yellow;
 }
+
 /* FIN SHEIMA */
 
 /* ############### */
@@ -114,10 +114,11 @@ p {
 }
 
 @keyframes animNDP {
-    0%{
+    0% {
         text-shadow: 0px 0px 6px black;
     }
-    100%{
+
+    100% {
         text-shadow: 0px -3px 7px grey;
         font-size: 28px;
     }
@@ -129,7 +130,7 @@ p {
 
 
 /* JESSICA */
-#card-jess { 
+#card-jess {
     width: 350px;
     border: 5px solid gray;
     box-shadow: 1px 1px 3px #888;
@@ -138,23 +139,23 @@ p {
     padding: 10px;
     margin: 40px;
 }
-  
+
 #img-jess2 {
-  border-radius: 50%;
+    border-radius: 50%;
     width: 70px;
     margin: 10px;
 }
 
-#h1-jess3{
+#h1-jess3 {
     font-weight: lighter;
     margin-left: 100px;
     margin-top: -70px;
     font-family: Arial, Helvetica, sans-serif;
     margin-top: -30px;
     text-align: center;
-} 
+}
 
-.p-jess4{
+.p-jess4 {
     margin: 10px;
     font-family: segoe ui;
     line-height: 1.4em;
@@ -162,6 +163,7 @@ p {
     text-align: center;
 
 }
+
 /* FIN JESSICA */
 
 
@@ -180,7 +182,7 @@ p {
     background-color: whitesmoke;
 }
 
-#titreemi{
+#titreemi {
     color: #A42F85;
     text-shadow: 1px 2px 2px #A4108B;
 }
@@ -197,7 +199,7 @@ p {
 /* PIERRE GIROU */
 
 #pierregirou h1 {
-  color: blue;
+    color: blue;
 }
 
 #pierregirou p {
@@ -220,8 +222,8 @@ p {
 /* DEBUT CODE MATHIS */
 /* ################# */
 
-.mathis{
-  
+.mathis {
+
     width: 350px;
     border: 1px solid green;
     box-shadow: 1px 1px 3px #888;
@@ -231,13 +233,70 @@ p {
     border-right: 10px solid rgb(255, 72, 0);
     min-height: 250px;
     padding: 10px;
-    margin: 10px; 
+
 }
 
 /* ############### */
 /* FIN CODE MATHIS */
 /* ############### */
+/* ============================
+    DEBUT DU CODE CSS USHER
+================================*/
+.card-usher {
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
 
+.card-usher:hover {
+    outline: 3px solid orange;
+    outline-offset: 10px
+}
+
+.card-usher__img {
+    display: block;
+    width: 50%;
+    border-radius: 5px;
+    padding: 0;
+    margin: 0;
+}
+
+.card-usher__content {
+    margin: auto 0;
+}
+
+.card-usher__content--title {
+    text-transform: uppercase;
+    color: orange;
+    margin-bottom: 0;
+}
+
+.card-usher__content--description {
+    margin-bottom: 10px;
+}
+
+.card-usher__content--btn {
+    display: block;
+    padding: 10px 15px;
+    background: #6ece6e;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.card-usher__content--btn:hover {
+    background: orange;
+    color: green;
+}
+
+/* ============================
+    FIN DU CODE CSS USHER
+================================*/
 
 /* ################ */
 /* DEBUT CODE CHRIS */
@@ -306,6 +365,7 @@ p {
     max-height: 250px;
     text-shadow: 2px 2px white;
 }
+
 /* ############ */
 /* FIN CODE XAV */
 /* ############ */
@@ -315,7 +375,7 @@ p {
 /* DEBUT CODE KYLIAN */
 /* ################# */
 
-#kylianCard{
+#kylianCard {
     width: 350px;
     background-position: center;
     background-size: contain;
@@ -338,7 +398,7 @@ p {
 }
 
 /* Carte de Marc */
-.card-marc{
+.card-marc {
     border-color: blue;
     font-size: 0.8em;
     display: flex;
@@ -354,31 +414,36 @@ p {
     padding: 0;
 }
 
-.card-marc h1{
+.card-marc h1 {
     margin-top: 0;
     margin-left: 0;
 }
 
-.card-marc img{
+.card-marc img {
     width: 50%;
     border: solid 4px grey;
     animation: appear 2.5s ease-in;
 }
 
-.card-marc img:hover{
+.card-marc img:hover {
     transform: scale(1.2);
     transition: all 0.5s ease;
 
 }
 
-@keyframes appear{
-    0% { opacity: 0;}
-    100% { opacity: 1;}
+@keyframes appear {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
-.card-marc p{
+.card-marc p {
     text-align: justify;
-    background-color: rgba(40,40,40,0.5);
+    background-color: rgba(40, 40, 40, 0.5);
     width: calc(100%-10px);
     margin: 0;
     padding: 10px;
@@ -397,7 +462,7 @@ p {
 /* DEBUT CODE RODRIGUE */
 /* ################### */
 
-#rodrigue{
+#rodrigue {
     width: 350px;
     border: 1px solid gray;
     box-shadow: 1px 1px 3px #888;
@@ -416,7 +481,7 @@ p {
 
 /* MICKAEL */
 
-#mickael{
+#mickael {
     width: 350px;
     border: 1px solid gray;
     box-shadow: 1px 1px 3px #888;
@@ -429,7 +494,7 @@ p {
 /* FIN MICKAEL */
 
 /* EMICATT */
-#marteau{
+#marteau {
     width: 350px;
     border: 2px solid rgb(3, 25, 39);
     box-shadow: 1px 1px 3px #888;
@@ -438,6 +503,7 @@ p {
     padding: 20px;
     margin: 20px;
 }
+
 /* FIN EMICATT */
 
 
@@ -446,7 +512,7 @@ p {
 /* ################# */
 
 #cedric img {
-    width: 100px; 
+    width: 100px;
 }
 
 #cedric h1 {
@@ -469,7 +535,7 @@ p {
 /* DEBUT CODE BAPTISTE */
 /* ################### */
 
-.baptiste{
+.baptiste {
     border: 1px solid #FF8C00;
     width: 350px;
     box-shadow: 1px 1px 3px #888;
@@ -488,7 +554,7 @@ p {
 /* DEBUT CODE ELODY */
 /* ################ */
 
-.elodycard{
+.elodycard {
     width: 350px;
     border: 5px solid gray;
     box-shadow: 1px 1px 3px #888;
