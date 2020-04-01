@@ -45,32 +45,6 @@ p {
 /* ################# */
 /* FIN CODE ORIGINEL */
 /* ################# */
-
-/* Time to shine */
-
-#Audrene {
-    background: radial-gradient(circle at bottom right, rgb(67, 69, 163), rgb(87, 87, 109) 0, rgb(255, 255, 255) 100%)
-}
-
-.mon-container > h1 {
-    text-align: right;
-    font-style: italic;
-    color: rebeccapurple;
-}
-
-.mon-container > P {
-    text-align: center;
-}
-
-#Audrene > img {
-    width: 200px;
-    margin-left: 5px;
-    margin-top: 5px;
-    box-shadow: 5px 5px 2px rgba(70, 3, 3, 0.555);
-}
-
-/* Fini to shine */
-
 /* Début code Olivier */
 .card-olivier{
     width: 350px;
@@ -97,6 +71,63 @@ p {
 }
 
 /* fin code Olivier */
+
+/* ################ */
+/* DEBUT CODE PERLE */
+/* ################ */
+
+
+#full_card_perle {
+    text-align: center;
+    border: 2px solid mediumvioletred;
+    border-top: 20px solid mediumvioletred;
+    border-radius: 2px;
+    width: 40%;
+    padding: -10px 10px -10px 10px;
+    margin: 30px;
+    box-shadow: 2px -2px 15px black;
+}
+
+#avatar_perle {
+    float: left;
+    margin-top: 80px;
+    margin-left: 90px;
+    width: 100px;
+    border: 2px solid black;
+    transition: transform .2s;
+}
+
+#avatar_perle:hover {
+    transform: scale(1.5);
+    border: 2px solid orchid;
+}
+
+#name_perle {
+    float: left;
+    margin-top: 20px;
+    margin-left: -105px;
+    text-shadow: 1.5px 1px 0.5px orchid;
+    font-size: 2vw;
+}
+
+#img_perle {
+    width: 300px;
+    border: 2px groove black;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+#text_perle {
+    font-size: 12px;
+    font-weight: 500;
+    padding: 5px;
+    border-top: 3px solid mediumvioletred;
+    background-image: linear-gradient( rgba(199,21,133,0.8), rgba(218,112,214,0.6));
+}
+
+/* ############## */
+/* FIN CODE PERLE */
+/* ############## */
 
 /*debut code céline*/
 #card-celine{
