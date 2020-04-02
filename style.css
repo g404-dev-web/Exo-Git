@@ -601,3 +601,13 @@ p {
 /* ################ */
 /* FIN CODE GREGORY */
 /* ################ */
+/*code vero*/
+.vero {
+    width: 350px;
+    border: 5px solid black;
+    box-shadow: 1px 1px 3px #888;
+    border-bottom: 10px solid blue;
+    min-height: 250px;
+    padding: 10px;
+    margin: 40px;
+}
