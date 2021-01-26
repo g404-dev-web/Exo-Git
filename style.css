@@ -611,3 +611,21 @@ p {
 /* FIN CODE ESTHER */
 /* ################ */
 
+/* ################ */
+/* DEBUT CODE RONAN*/
+/* ################ */
+
+.cardRonan{
+    width: 400px;
+    background-color: lightgray;
+    border: 7px solid #000000;
+    margin-left: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 9px;
+}
+
+/* ################ */
+/* FIN CODE RONAN*/
+/* ################ */
