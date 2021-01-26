@@ -611,3 +611,58 @@ p {
 /* FIN CODE ESTHER */
 /* ################ */
 
+/* ################# */
+/* DEBUT CODE ANTHONY */
+/* ################# */
+
+.antho{
+  
+    width: 350px;
+    border: 1px solid green;
+    box-shadow: 1px 1px 3px #888;
+    border-top: 5px solid rgb(235, 203, 23);
+    border-bottom: 5px solid rgb(235, 203, 23);
+    border-left: 5px solid rgb(109, 201, 4);
+    border-right: 5px solid rgb(109, 201, 4);
+    min-height: 250px;
+    padding: 5px;
+    background-position: center;
+    background-image: url("assets/ricketmorty.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+   
+}
+
+.antho:hover{
+    transform: scale(1.2);
+    transition: all 0.5s ease;
+
+}
+
+.antho h1{
+
+    font-family: 'Calibri', sans-serif;
+    color: rgb(6, 20, 51);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.antho p{
+    
+    text-align: center;
+    font-family: 'Calibri', sans-serif;
+    color: rgb(6, 20, 51);
+    position: relative;
+    vertical-align: text-bottom;
+    
+}
+
+
+/* ################## */
+/* FIN CODE ANTHONY   */
+/* ################## */
+
