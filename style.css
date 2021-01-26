@@ -611,3 +611,16 @@ p {
 /* FIN CODE ESTHER */
 /* ################ */
 
+.cardJulien{
+
+    width: 350px;
+    height: 430px;
+    border: 1px solid black;
+    text-align: center;
+    color: white;
+    background: rgb(122, 0, 0);
+   
+    
+
+
+}
