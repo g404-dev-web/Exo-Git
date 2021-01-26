@@ -581,33 +581,37 @@ p {
 
 
 /* ################ */
-/* DEBUT CODE ESTHER */
+/* DEBUT CODE ELEA */
 /* ################ */
 
-.cardEsther{
+.cardElea{
     width: 350px;
-    background-color: rgb(188, 238, 108);
-    border: 1px dotted rgb(6, 58, 36);
-    box-shadow: 1px 3px 3px rgb(37, 196, 58);
-    border-top: 10px solid rgb(6, 141, 119);
+    background-color: rgb(245, 219, 248);
+    border: 1px dotted rgb(154, 235, 201);
+    box-shadow: 1px 3px 3px rgb(247, 201, 235);
+    border-top: 10px solid rgb(92, 221, 150);
     padding: 10px;
     margin: 10px;
     text-shadow: 1px 2px 12px rgb(41, 40, 40);
-    color: rgb(4, 51, 28);
+    color: rgb(11, 37, 25);
      line-height: 1.4em;
     font-size: 1.2em;
     text-align: center;
     display: flex;
     flex-direction: column;
     max-height:250px;
+
+}
+.h1-elea{
+    margin-top: 30px;
 }
 
-.cardEsther h1{
+.cardElea h1{
     padding-right:100px;
 }
 
 
 /* ################ */
-/* FIN CODE ESTHER */
+/* FIN CODE ELEA */
 /* ################ */
 
