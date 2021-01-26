@@ -611,6 +611,7 @@ p {
 /* FIN CODE ESTHER */
 /* ################ */
 
+
 .cardRomain {
     width: 350px;
     
@@ -627,4 +628,32 @@ p {
     max-height:250px;
 }
 
+
+
+/*###################*/
+/*DEBUT DU CODE JEAN*/
+/*###################*/
+
+.card-jean{
+background-color: lightgreen;
+font-family: 'Lucida Sans';
+text-align: center;
+width: 350px;
+min-height: 300px;
+border-top: 10px solid forestgreen;
+text-shadow: 1px 2px 12px rgb(41, 40, 40);
+margin: 10px;
+padding: 10px;
+font-size: x-large;
+border-bottom:5px solid forestgreen;
+}
+.image-jean{
+    float: left;
+}
+.h1-jean{
+    margin-top: 30px;
+}
+/*#########################*/
+/*FIN CODE JEAN*/
+/*#########################*/
 
