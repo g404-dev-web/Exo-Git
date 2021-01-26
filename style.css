@@ -611,3 +611,20 @@ p {
 /* FIN CODE ESTHER */
 /* ################ */
 
+.cardRomain {
+    width: 350px;
+    
+    border: 1px dotted rgb(6, 7, 58);
+       border-top: 10px solid rgb(42, 6, 141);
+    padding: 10px;
+    margin: 10px;
+    
+     line-height: 1.4em;
+    font-size: 1.2em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    max-height:250px;
+}
+
+
