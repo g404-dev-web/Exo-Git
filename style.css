@@ -637,3 +637,19 @@ border-bottom:5px solid forestgreen;
 /*#########################*/
 /*FIN CODE JEAN*/
 /*#########################*/
+
+/* ################ */
+/* DEBUT CODE ALAN */
+/* ################ */
+.Alan {
+    border: 1px solid #5b18d6;
+    width: 350px;
+    box-shadow: 1px 1px 3px rgb(104, 0, 0);
+    border-top: 30px solid #5b18d6;
+    min-height: 350px;
+    padding: 20px;
+    margin: 20px;
+}
+/* ################ */
+/* FIN CODE ALAN */
+/* ################ */
