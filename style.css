@@ -1,5 +1,6 @@
 
 
+
 /* ################### */
 /* DEBUT CODE ORIGINEL */
 /* ################### */
@@ -47,7 +48,25 @@ p {
 /* ################# */
 
 /* Time to shine */
-
+/* ################ */
+/* DEBUT CODE Florencia*/
+/* ################ */
+#Florencia
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: #A4108B;
+    font-size: xx-large;
+    text-align: center;
+    
+}
+p{
+    color: palevioletred;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+/* ################ */
+/* FIN CODE ESTHER */
+/* ################ */
 #Audrene {
     background: radial-gradient(circle at bottom right, rgb(67, 69, 163), rgb(87, 87, 109) 0, rgb(255, 255, 255) 100%)
 }
@@ -1948,4 +1967,3 @@ border-bottom:5px solid forestgreen;
 /*#########################*/
 /*FIN CODE JEAN*/
 /*#########################*/
-
