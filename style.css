@@ -611,3 +611,33 @@ p {
 /* FIN CODE ESTHER */
 /* ################ */
 
+/* Début code Maxime */
+.card-maxime{
+    width: 400px;
+    height: 400px;
+    border: 2px solid black;
+    text-align: center;
+    color: white;
+    background: rgb(21, 158, 8);
+    background: radial-gradient(circle, rgb(175, 178, 179) 0%, rgba(92,121,9,1) 30%, rgb(243, 119, 4) 100%);
+    
+}
+.card-maxime h1{
+    margin:2rem;
+    text-transform: uppercase;
+    text-shadow: 2px 4px 12px rgb(41, 40, 40);
+}
+.card-maxime img{
+    width: 230px;
+    height: 200px;
+    border:1px solid white;
+}
+.card-maxime p{
+    padding: 2rem;
+    font-family: Papyrus, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-shadow: 2px 2px rgb(21, 158, 8);
+}
+
+/* fin code Maxime */
+
