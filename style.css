@@ -687,6 +687,7 @@ p {
 /* FIN CODE MATHIS */
 /* ################## */
 
+
 /* DEBUT CODE HUGO */
 /* ################## */
 
@@ -712,4 +713,23 @@ p {
 /* ################## */
 /* FIN CODE HUGO */
 
+
+
 /* ################## */
+/* DEBUT CODE Benjamin.P */
+/* ################## */
+
+.card-ben {
+  color:#1c6ea4;
+  width: 350px;
+  height: 1000x;
+  padding: 10px;
+  margin: 20px;
+  background-color: #010101;
+  border-radius: 10px;
+
+}
+
+
+/* ################## */
+/* Fin CODE Benjamin.P */
