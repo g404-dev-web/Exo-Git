@@ -699,6 +699,15 @@ p {
   background-color: #504e4e;
   margin: 10px;
 }
+.mlcard-marc {
+  width: 350px;
+  border: 1px solid lightgray;
+  box-shadow: 1px 4px 5px #00ddff;
+  border-top: 18px solid rebeccapurple;
+  min-height: 250px;
+  padding: 10px;
+  border-radius: 6px;
+}
 
 /* ################## */
 /* FIN CODE HUGO */
