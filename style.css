@@ -45,27 +45,24 @@ p {
 
 /* Time to shine */
 
-
-
 /* ################ */
 /* DEBUT CODE Florencia*/
 /* ################ */
 #Florencia h1 {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   color: #a4108b;
   font-size: xx-large;
   text-align: center;
 }
 #Florencia p {
   color: palevioletred;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
-    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-style: italic;
 }
 /* ################ */
 /* FIN CODE Florencia */
 /* ################ */
-
 
 /* Début code Olivier */
 .card-olivier {
@@ -148,7 +145,7 @@ p {
 }
 
 #name-av {
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   text-shadow: 0px 0px 5px black;
 }
 
@@ -226,8 +223,6 @@ p {
 }
 
 /* FIN PIERRE GIROU */
-
-
 
 /* ################# */
 /* DEBUT CODE MATHIS */
@@ -329,7 +324,7 @@ p {
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
-  background-image: url('https://4kwallpapersimages.com/wp-content/uploads/2017/12/7K-Wallpaper-Black-Goku-Dragon-Ball-Super-8k-800x600.jpg');
+  background-image: url("https://4kwallpapersimages.com/wp-content/uploads/2017/12/7K-Wallpaper-Black-Goku-Dragon-Ball-Super-8k-800x600.jpg");
   background-color: black;
   border: 1px solid gray;
   box-shadow: 1px 1px 3px #888;
@@ -436,8 +431,6 @@ p {
 /* FIN CODE BAPTISTE */
 /* ################# */
 
-
-
 .cardRomain {
   width: 350px;
 
@@ -481,14 +474,11 @@ p {
 /*FIN CODE BASILE*/
 /*#################*/
 
-
-
 /* SHEIMA */
 #carteSheima {
   border-top: 10px solid yellow;
 }
 /* FIN SHEIMA */
-
 
 /* ############## */
 /* DEBUT CODE EMI */
@@ -518,8 +508,6 @@ p {
 /* FIN CODE EMI */
 /* ############ */
 
-
-
 /* ################ */
 /* DEBUT CODE RONAN*/
 /* ################ */
@@ -545,7 +533,7 @@ p {
 
 .card-jean {
   background-color: lightgreen;
-  font-family: 'Lucida Sans';
+  font-family: "Lucida Sans";
   text-align: center;
   width: 350px;
   min-height: 300px;
@@ -566,22 +554,18 @@ p {
 /*FIN CODE JEAN*/
 /*#########################*/
 
-
-
 /*###################*/
 /*DEBUT DU CODE julien*/
 /*###################*/
 
-.cardJulien{
-    width: 350px;
-    border: 1px solid black;
-    text-align: center;
-    color: white;
-    background: rgb(122, 0, 0);
-    margin: 15px;
+.cardJulien {
+  width: 350px;
+  border: 1px solid black;
+  text-align: center;
+  color: white;
+  background: rgb(122, 0, 0);
+  margin: 15px;
 }
-
-
 
 /*#########################*/
 /*FIN CODE julien*/
@@ -590,54 +574,70 @@ p {
 /* DEBUT CODE ANTHONY */
 /* ################# */
 
-.antho{
-  
-    width: 350px;
-    border: 1px solid green;
-    box-shadow: 1px 1px 3px #888;
-    border-top: 5px solid rgb(235, 203, 23);
-    border-bottom: 5px solid rgb(235, 203, 23);
-    border-left: 5px solid rgb(109, 201, 4);
-    border-right: 5px solid rgb(109, 201, 4);
-    min-height: 250px;
-    padding: 5px;
-    background-position: center;
-    background-image: url("assets/ricketmorty.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+.antho {
+  width: 350px;
+  border: 1px solid green;
+  box-shadow: 1px 1px 3px #888;
+  border-top: 5px solid rgb(235, 203, 23);
+  border-bottom: 5px solid rgb(235, 203, 23);
+  border-left: 5px solid rgb(109, 201, 4);
+  border-right: 5px solid rgb(109, 201, 4);
+  min-height: 250px;
+  padding: 5px;
+  background-position: center;
+  background-image: url("assets/ricketmorty.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 
-    margin-top: 10px;
-    margin-bottom: 10px;
-   
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
-.antho:hover{
-    transform: scale(1.2);
-    transition: all 0.5s ease;
-
+.antho:hover {
+  transform: scale(1.2);
+  transition: all 0.5s ease;
 }
 
-.antho h1{
-
-    font-family: 'Calibri', sans-serif;
-    color: rgb(6, 20, 51);
-    position: relative;
-    display: flex;
-    flex-direction: column;
+.antho h1 {
+  font-family: "Calibri", sans-serif;
+  color: rgb(6, 20, 51);
+  position: relative;
+  display: flex;
+  flex-direction: column;
 }
-.antho p{
-    
-    text-align: center;
-    font-family: 'Calibri', sans-serif;
-    color: rgb(6, 20, 51);
-    position: relative;
-    vertical-align: text-bottom;
-    
+.antho p {
+  text-align: center;
+  font-family: "Calibri", sans-serif;
+  color: rgb(6, 20, 51);
+  position: relative;
+  vertical-align: text-bottom;
 }
-
 
 /* ################## */
 /* FIN CODE ANTHONY   */
 /* ################## */
 
+/* ################## */
+/* DEBUT CODE MARIE-LAURE */
+/* ################## */
+
+.mlcard {
+  font-family: "Courier New", Courier, monospace;
+  color: #000000;
+  width: 350px;
+  height: 350px;
+  padding: 10px;
+  margin: 20px;
+  background-color: #cee7ef;
+}
+.mlcard:hover {
+  background-color: #1c6ea4;
+}
+.mlcard p {
+  text-align: center;
+}
+
+/* ################## */
+/* FIN CODE MARIE-LAURE */
+/* ################## */
