@@ -733,3 +733,26 @@ p {
 
 /* ################## */
 /* Fin CODE Benjamin.P */
+
+/* ################## */
+/* DEBUT CODE Hamza */
+
+  .Hamza{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 500px;
+    background-color: #f5f5f5;
+    margin-top: 15px;
+  }
+  .Hamza h1{
+    margin: 0;
+  }
+  .Hamza:hover{
+    transform: scale(1.1);
+    transition: all 0.5s ease;
+  }
+
+/* ################## */
