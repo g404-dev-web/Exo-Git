@@ -756,3 +756,26 @@ p {
   }
 
 /* ################## */
+
+/* DEBUT CODE Mika */
+
+.Micka{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  height: 750px;
+  background-color: #c9b8f8;
+  margin-top: 15px;
+  border: 1px solid blue;
+}
+.Micka h1{
+  margin: 0;
+}
+.Micka:hover{
+  transform: scale(1.1);
+  transition: all 0.5s ease;
+}
+
+/* ################## */
