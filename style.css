@@ -639,10 +639,13 @@ p {
 .cardBasile h1{padding-right: 100px;
 }
 
+.cardBasile img {
+    border-radius: 50px;
+}
+
 /*#################*/
 /*FIN CODE BASILE*/
 /*#################*/
-=======
 
 
 
