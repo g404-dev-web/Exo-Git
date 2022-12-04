@@ -903,8 +903,36 @@ p {
   margin: 0;
 }
 .Micka:hover{
-  transform: scale(1.1);
+  transform: scale(0.8);
   transition: all 0.5s ease;
+}
+
+.animate-micka
+{
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-decoration-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 26px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 100% center;
+  }
 }
 
 /* ################## */
