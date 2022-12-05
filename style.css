@@ -780,6 +780,28 @@ p {
 
 /* ################## */
 
+/* DEBUT CODE SERHAT */
+.Serhat{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: ;
+  width: 350px;
+  height: 750px;
+  background-image: url(https://stephanelarue.com/wp-content/uploads/2020/12/cover-album-ZKR-Dans-les-mains-mdef.jpg);
+  margin: 15px;
+  color: white;
+  
+}
+
+.Serhat:hover{
+  transform: scale(2.1);
+  transition: all 1s ease;
+}
+
+
+/* FIN CODE SERHAT */
+
 
 /* DEBUT CODE Yanis */
 
