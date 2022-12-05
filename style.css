@@ -899,44 +899,27 @@ p {
 
 /* ################## */
 
-/* DEBUT CODE Taher */
-
-.taher{
-  overflow: hidden;
+/* DEBUT CODE SERHAT */
+.Serhat{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: ;
+  width: 350px;
+  height: 750px;
+  background-image: url(https://stephanelarue.com/wp-content/uploads/2020/12/cover-album-ZKR-Dans-les-mains-mdef.jpg);
+  margin: 15px;
+  color: white;
   
 }
-.taher-item{
-    width: 20%;
-    float: left;
-    margin-bottom: 20px;
-    border: 1px solid #e8e8e8;
-    padding: 35px 15px 30px 70px;
-    position: relative;
-    background-color: white;
+
+.Serhat:hover{
+  transform: scale(2.1);
+  transition: all 1s ease;
 }
 
-.taher-item h1{
-  margin-bottom: 15px;
-  transition: color 0.5s;
-}
-.taher-item #desc{
-  color: rgb(0, 0, 0);
-    text-transform: capitalize;
-    margin-bottom: 15px;
-    transition: color 0.5s;
-}
-.taher:hover .taher-item h1,
-.taher:hover .taher-item #desc
 
-{
-  color: rgb(221, 25, 25);
-}
-.taher-item:hover {
-  background-color: black;
-
-}
-
-/* ################## */
+/* FIN CODE SERHAT */
 
 
 /* DEBUT CODE Yanis */
