@@ -780,6 +780,7 @@ p {
 
 /* ################## */
 
+
 /* DEBUT CODE Yanis */
 
 .Yanis {
@@ -800,3 +801,42 @@ p {
   /* ################## */
   
   
+
+/* DEBUT CODE Semih */
+
+.Semih{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 354px;
+  background-image: url(assets/fondsemih.jpg);
+  background-size: 100%;
+  border: 1px solid red;
+  margin: 15px;
+  font-weight: bold;
+}
+.Semih h1{
+  margin: 0;
+}
+.Semih:hover{
+  transform: scale(1.1);
+  transition: all 0.5s ease;
+}
+/* ################## */
+
+/* DEBUT CODE Brice */
+
+.Brice {
+  color:#279e37;
+  width: 350px;
+  height: 1000x;
+  padding: 10px;
+  margin: 20px;
+  background-color: #010101;
+  border-radius: 10px;
+
+  
+}
+
