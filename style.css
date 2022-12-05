@@ -780,6 +780,28 @@ p {
 
 /* ################## */
 
+
+/* DEBUT CODE Yanis */
+
+.Yanis {
+  width: 350px;
+  border: 1px solid gray;
+  box-shadow: 1px 1px 3px #888;
+  border-top: 10px solid blue;
+  height: 200px;
+  padding: 10px;
+  margin: 40px;
+  }
+  
+  .Yanis:hover{
+  transform: scale(1.1);
+  transition: all 0.5s ease;
+  }
+  
+  /* ################## */
+  
+  
+
 /* DEBUT CODE Semih */
 
 .Semih{
