@@ -803,3 +803,18 @@ p {
   transition: all 0.5s ease;
 }
 /* ################## */
+
+/* DEBUT CODE Brice */
+
+.Brice {
+  color:#279e37;
+  width: 350px;
+  height: 1000x;
+  padding: 10px;
+  margin: 20px;
+  background-color: #010101;
+  border-radius: 10px;
+
+  
+}
+
