@@ -54,12 +54,14 @@ p {
   font-size: xx-large;
   text-align: center;
 }
+
 #Florencia p {
   color: palevioletred;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-style: italic;
 }
+
 /* ################ */
 /* FIN CODE Florencia */
 /* ################ */
@@ -71,22 +73,23 @@ p {
   text-align: center;
   color: white;
   background: rgb(2, 0, 36);
-  background: radial-gradient(
-    circle,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(92, 121, 9, 1) 51%,
-    rgba(236, 246, 210, 1) 100%
-  );
+  background: radial-gradient(circle,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(92, 121, 9, 1) 51%,
+      rgba(236, 246, 210, 1) 100%);
 }
+
 .card-olivier h1 {
   margin: 1rem;
   text-transform: uppercase;
 }
+
 .card-olivier img {
   width: 110px;
   height: 100px;
   border: 1px solid white;
 }
+
 .card-olivier p {
   padding: 2rem;
   font-family: Arial, Helvetica, sans-serif;
@@ -117,12 +120,14 @@ p {
 #pceline {
   margin: 5px;
 }
+
 /*fin code céline*/
 
 /* SHEIMA */
 #carteSheima {
   border-top: 10px solid yellow;
 }
+
 /* FIN SHEIMA */
 
 /* ############### */
@@ -163,6 +168,7 @@ p {
   0% {
     text-shadow: 0px 0px 6px black;
   }
+
   100% {
     text-shadow: 0px -3px 7px grey;
     font-size: 28px;
@@ -206,6 +212,7 @@ p {
   font-size: 18px;
   text-align: center;
 }
+
 /* FIN JESSICA */
 
 /* PIERRE GIROU */
@@ -311,6 +318,7 @@ p {
   max-height: 250px;
   text-shadow: 2px 2px white;
 }
+
 /* ############ */
 /* FIN CODE XAV */
 /* ############ */
@@ -388,6 +396,7 @@ p {
   padding: 20px;
   margin: 20px;
 }
+
 /* FIN EMICATT */
 
 /* ################# */
@@ -478,6 +487,7 @@ p {
 #carteSheima {
   border-top: 10px solid yellow;
 }
+
 /* FIN SHEIMA */
 
 /* ############## */
@@ -544,12 +554,15 @@ p {
   font-size: x-large;
   border-bottom: 5px solid forestgreen;
 }
+
 .image-jean {
   float: left;
 }
+
 .h1-jean {
   margin-top: 30px;
 }
+
 /*#########################*/
 /*FIN CODE JEAN*/
 /*#########################*/
@@ -606,6 +619,7 @@ p {
   display: flex;
   flex-direction: column;
 }
+
 .antho p {
   text-align: center;
   font-family: "Calibri", sans-serif;
@@ -631,9 +645,11 @@ p {
   margin: 20px;
   background-color: #cee7ef;
 }
+
 .mlcard:hover {
   background-color: #1c6ea4;
 }
+
 .mlcard p {
   text-align: center;
 }
@@ -649,39 +665,44 @@ p {
 /* ################## */
 
 .card-Mathis {
-    width: 300px;
-   border-radius: 18px;
-   background: white;
-   box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
-   font-family: roboto;
-   text-align: center;
- }
- .card-Mathis .card-image {
-   background: url("./assets/Thierry-Henry.jpg");
-   border-top-left-radius: 15px;
-   border-top-right-radius: 15px;
-   background-size: cover;
-   height: 100px;
- }
- .card-Mathis .card-text {
-   grid-area: text;
-   margin: 25px;
- }
- .card-Mathis .card-text .date {
-   color: rgb(255, 7, 110);
-   font-size:13px;
- }
- .card-Mathis .card-text p {
-   color: grey;
-   font-size:15px;
-   font-weight: 300;
- }
- .card-Mathis .card-stats {
-   grid-area: stats; 
-   border-bottom-left-radius: 15px;
-   border-bottom-right-radius: 15px;
-   background: rgb(255, 7, 110);
- }
+  width: 300px;
+  border-radius: 18px;
+  background: white;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
+  font-family: roboto;
+  text-align: center;
+}
+
+.card-Mathis .card-image {
+  background: url("./assets/Thierry-Henry.jpg");
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+  height: 100px;
+}
+
+.card-Mathis .card-text {
+  grid-area: text;
+  margin: 25px;
+}
+
+.card-Mathis .card-text .date {
+  color: rgb(255, 7, 110);
+  font-size: 13px;
+}
+
+.card-Mathis .card-text p {
+  color: grey;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.card-Mathis .card-stats {
+  grid-area: stats;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background: rgb(255, 7, 110);
+}
 
 /* ################## */
 /* FIN CODE MATHIS */
@@ -700,6 +721,7 @@ p {
   background-color: #504e4e;
   margin: 10px;
 }
+
 .mlcard-marc {
   width: 350px;
   border: 1px solid lightgray;
@@ -720,7 +742,7 @@ p {
 /* ################## */
 
 .card-ben {
-  color:#1c6ea4;
+  color: #1c6ea4;
   width: 350px;
   height: 1000x;
   padding: 10px;
@@ -737,29 +759,33 @@ p {
 /* ################## */
 /* DEBUT CODE Hamza */
 
-  .Hamza{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 350px;
-    height: 500px;
-    background-color: #f5f5f5;
-    margin-top: 15px;
-  }
-  .Hamza h1{
-    margin: 0;
-  }
-  .Hamza:hover{
-    transform: scale(1.1);
-    transition: all 0.5s ease;
-  }
+.Hamza {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  height: 500px;
+  padding: 10px;
+  margin: 20px;
+  background-color: #f5f5f5;
+  margin-top: 15px;
+}
+
+.Hamza h1 {
+  margin: 0;
+}
+
+.Hamza:hover {
+  transform: scale(1.1);
+  transition: all 0.5s ease;
+}
 
 /* ################## */
 
 /* DEBUT CODE Mika */
 
-.Micka{
+.Micka {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -770,12 +796,28 @@ p {
   margin-top: 15px;
   border: 1px solid blue;
 }
-.Micka h1{
+
+.Micka h1 {
   margin: 0;
 }
-.Micka:hover{
+
+.Micka:hover {
   transform: scale(1.1);
   transition: all 0.5s ease;
 }
 
 /* ################## */
+.Yann {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  height: 750px;
+  margin-top: 15px;
+  background-image: url(http://jedeviensmedium.fr/pourquoi-ma-vie-est-presque-un-long-fleuve-tranquille);
+}
+
+.Yann h1 {
+  text-align: center;
+}
