@@ -781,6 +781,46 @@ p {
 /* ################## */
 
 
+/* DEBUT CODE Taher */
+
+.taher{
+  overflow: hidden;
+  
+}
+.taher-item{
+  width: 20%;
+    float: left;
+    margin-bottom: 20px;
+    border: 1px solid #e8e8e8;
+    padding: 35px 15px 30px 70px;
+    position: relative;
+background-color: white;
+}
+
+.taher-item h1{
+  margin-bottom: 15px;
+  transition: color 0.5s;
+}
+.taher-item #desc{
+  color: rgb(0, 0, 0);
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    transition: color 0.5s;
+}
+.taher:hover .taher-item h1,
+.taher:hover .taher-item #desc
+
+{
+  color: rgb(221, 25, 25);
+}
+.taher-item:hover {
+  background-color: black;
+
+}
+
+/* ################## */
+
+
 /* DEBUT CODE Yanis */
 
 .Yanis {
@@ -839,4 +879,5 @@ p {
 
   
 }
+
 
