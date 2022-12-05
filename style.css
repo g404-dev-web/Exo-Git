@@ -813,10 +813,9 @@ p {
   width: 400px;
   border: 10px dashed;
   border-radius: 20px;
-  background-color: black;
+  background-image: url("https://us.123rf.com/450wm/neyro2008/neyro20081611/neyro2008161100072/67379974-espace-d-%C3%A9toiles-vecteur-de-fond-galaxy-et-des-plan%C3%A8tes-dans-l-espace-cosmos-mod%C3%A8le-univers-infini-d.jpg");
   margin: 50px;
   animation: moveBorder 6s linear 1s infinite alternate;
-  animation: movebgcolor 6s Linear 1s infinite alternate;
 }
 
 .sS {
@@ -895,20 +894,6 @@ p {
     border-left-color: rgb(255, 255, 255);
     border-bottom-color: rgb(239, 65, 53);
     border-right-color: black;
-  }
-}
-
-@keyframes movebgcolor {
-  0% {
-    background-color: #00ddff;
-  }
-
-  50% {
-    background-color: white;
-  }
-
-  100% {
-    background-color: red;
   }
 }
 
