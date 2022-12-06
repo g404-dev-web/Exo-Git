@@ -806,13 +806,13 @@ p {
 
 /* ################## */
 
-.Gaston{
+.Gaston {
 
   width: 350px;
   border: 1px solid gray;
   box-shadow: 1px 1px 3px #888;
   background-color: #010101;
-  border-top: 10px solid ;
+  border-top: 10px solid;
   min-height: 250px;
   padding: 10px;
   margin: 10px;
@@ -913,7 +913,7 @@ p {
 /* ################## */
 
 /* DEBUT CODE SERHAT */
-.Serhat{
+.Serhat {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -923,10 +923,10 @@ p {
   background-image: url(https://stephanelarue.com/wp-content/uploads/2020/12/cover-album-ZKR-Dans-les-mains-mdef.jpg);
   margin: 15px;
   color: white;
-  
+
 }
 
-.Serhat:hover{
+.Serhat:hover {
   transform: scale(2.1);
   transition: all 1s ease;
 }
@@ -945,18 +945,18 @@ p {
   height: 200px;
   padding: 10px;
   margin: 40px;
-  }
-  
-  .Yanis:hover{
+}
+
+.Yanis:hover {
   transform: scale(1.1);
   transition: all 0.5s ease;
-  }
-  
-  /* ################## */
+}
+
+/* ################## */
 
 /* DEBUT CODE Semih */
 
-.Semih{
+.Semih {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -969,19 +969,22 @@ p {
   margin: 15px;
   font-weight: bold;
 }
-.Semih h1{
+
+.Semih h1 {
   margin: 0;
 }
-.Semih:hover{
+
+.Semih:hover {
   transform: scale(1.1);
   transition: all 0.5s ease;
 }
+
 /* ################## */
 
 /* DEBUT CODE Brice */
 
 .Brice {
-  color:#279e37;
+  color: #279e37;
   width: 350px;
   height: 1000x;
   padding: 10px;
@@ -989,5 +992,30 @@ p {
   background-color: #010101;
   border-radius: 10px;
 
-  
+
 }
+
+/*DEBUT CODE MARION*/
+.Marion {
+  width: 300px;
+  border-radius: 18px;
+  background: white;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
+  font-family: roboto;
+  text-align: center;
+  grid-area: text;
+  margin: 25px;
+  height: 450px;
+}
+
+.card-image-marion {
+  background-image: url("./assets/fine-dog.jpg");
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-position: center;
+  height: 100px;
+  background-repeat: no-repeat;
+  background-size: 75%;
+}
+
+/* FIN CODE MARION*/
