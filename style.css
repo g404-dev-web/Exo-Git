@@ -935,4 +935,12 @@ p {
   }
 }
 
+/* DEBUT CODE alexis */
+.alexis{
+  background-image: url(./assets/chaudron.jpeg);
+  background-size: cover;
+  color: white;
+  border-radius: 15px;
+}
+
 /* ################## */
