@@ -977,15 +977,16 @@ p {
   position:absolute;
   padding-left: 20px;
   font-family: serif;
-  color: rgb(123, 138, 168);
+  color: rgb(166, 170, 172);
   position: relative;
-  margin-top: 4px;
+  margin-top: 20px;
 }
 
 .remdev404 p {
+  padding-top: 10px;
   text-align: center;
   font-family: serif;
-  color: rgb(197, 201, 209);
+  color: rgb(211, 214, 214);
   position: relative;
 }
 
