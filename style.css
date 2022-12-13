@@ -936,3 +936,50 @@ p {
 }
 
 /* ################## */
+
+
+/* ################# */
+/* DEBUT CODE REMY */
+/* ################# */
+
+.remdev404 {
+  width: 350px;
+  border: 3px solid green;
+  box-shadow: 1px 1px 3px ;
+  border-top: 6px solid rgb(106, 32, 124);
+  border-bottom: 6px solid rgb(14, 17, 153);
+  border-right: 6px solid rgb(106, 32, 124);
+  border-left: 6px solid rgb(14, 17, 153);
+  min-height: 250px;
+  padding: 5px;
+  background-position: center;
+  background-image: url("https://images.pexels.com/photos/2531237/pexels-photo-2531237.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.remdev404:hover {
+  transform: scale(1.2);
+  transition: all 0.5s ease;
+}
+
+.remdev404 h1 {
+  font-family: serif;
+  color: rgb(123, 138, 168);
+  position: relative;
+  margin-top: 4px;
+}
+
+.remdev404 p {
+  text-align: center;
+  font-family: serif;
+  color: rgb(197, 201, 209);
+  position: relative;
+}
+
+/* ################## */
+/* FIN CODE REMY   */
+/* ################## */
