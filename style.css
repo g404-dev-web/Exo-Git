@@ -974,6 +974,7 @@ p {
    /*FIN CODE Sharky */
 >>>>>>> 1f60ce3 (card emerson)
 
+
 @keyframes textclip {
   to {
     background-position: 100% center;
@@ -981,3 +982,110 @@ p {
 }
 
 /* ################## */
+
+
+/* ################ */
+/* DEBUT CODE Gueram*/
+/* ################ */
+
+#Gueram {
+  background-color:#051733;
+  color: white;
+}
+
+
+#Gueram.card:hover{
+  box-shadow: 0 0 40px rgba(0,0,0,.9); 
+  transform: scale(1.1);
+  z-index: 1;
+}
+
+
+/* ################ */
+/* FIN CODE Gueram*/
+/* ################ */
+
+/* DEBUT CODE POLO */
+/* ################## */
+.polo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  height: 300px;
+  background-color: #b8e6f8;
+  margin-top: 15px;
+  border: 1px solid rgb(0, 4, 255);
+}
+.polo h1{
+  margin: 0;
+  text-align: center;
+}
+.polo:hover{
+  transform: scale(0.8);
+  transition: all 0.5s ease;
+}
+
+.animate-polo
+{
+  background-image: linear-gradient(
+    -225deg,
+    #9900ff 0%,
+    #00ffbf 29%,
+    #0076fd 67%,
+    #9900ff 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-decoration-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 30px;
+}
+
+.sushi p {
+  text-align: center;
+  font-family: "Calibri", sans-serif;
+  color: rgb(0, 225, 255);
+  position: relative;
+  vertical-align: text-bottom;
+}
+
+/* ################## */
+/* FIN CODE POLO */
+/* ################## */
+
+
+
+/* ################## */
+
+/* DEBUT CODE GOTA */
+
+#HakimCard {
+  width: 350px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("https://4kwallpapersimages.com/wp-content/uploads/2017/12/7K-Wallpaper-Black-Goku-Dragon-Ball-Super-8k-800x600.jpg");
+  background-color: black;
+  border: 1px solid gray;
+  box-shadow: 1px 1px 3px #888;
+  border-top: 10px solid darkred;
+  min-height: 250px;
+  padding: 10px;
+  margin: 10px;
+  text-shadow: 1px 1px 12px red;
+  color: red;
+  margin: 10px;
+  font-family: segoe ui;
+  line-height: 1.4em;
+  font-size: 1.2em;
+}
+
+/* FIN CODE GOTA */
