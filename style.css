@@ -928,6 +928,51 @@ p {
   display: inline-block;
       font-size: 26px;
 }
+<<<<<<< HEAD
+=======
+  /*debut code Sharky*/
+  .shark{
+    width: 350px;
+    border: 1px solid rgb(33, 61, 200);
+    border-top: 5px solid rgb(33, 61, 200);
+    border-bottom: 5px solid rgb(33, 61, 200);
+    border-left: 5px solid rgb(157, 42, 240);
+    border-right: 5px solid rgb(157, 42, 240);
+    min-height: 250px;
+    padding: 5px;
+    background-position: center;
+    background-image: url("../exo-git-master/assets/water.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+  }
+  .h1-sharky{
+    font-family: "Calibri", sans-serif;
+    color: rgb(6, 20, 51);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+    text-align: center;
+  }
+  .shark p {
+    text-align: center;
+    font-family: "Calibri", sans-serif;
+    color: rgb(6, 20, 51);
+    position: relative;
+    vertical-align: text-bottom;
+  }
+  .shark img{
+    border-image: round;
+    border: solid;
+    border-color: #44107a;
+  }
+   /*FIN CODE Sharky */
+>>>>>>> 1f60ce3 (card emerson)
 
 
 @keyframes textclip {
