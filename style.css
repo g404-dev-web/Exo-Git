@@ -938,6 +938,28 @@ p {
 
 /* ################## */
 
+
+/* ################ */
+/* DEBUT CODE Gueram*/
+/* ################ */
+
+#Gueram {
+  background-color:#051733;
+  color: white;
+}
+
+
+#Gueram.card:hover{
+  box-shadow: 0 0 40px rgba(0,0,0,.9); 
+  transform: scale(1.1);
+  z-index: 1;
+}
+
+
+/* ################ */
+/* FIN CODE Gueram*/
+/* ################ */
+
 /* DEBUT CODE POLO */
 /* ################## */
 .polo{
