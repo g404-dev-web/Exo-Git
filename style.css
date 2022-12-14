@@ -936,3 +936,35 @@ p {
 }
 
 /* ################## */
+
+/*Carte de Renaud */
+.cardRenaud{
+  width: 350px;
+  border: 1px solid gray;
+  box-shadow: 1px 1px 3px #888;
+  border-top: 10px solid purple;
+  min-height: 250px;
+  padding: 10px;
+  margin: 40px;
+  border: solid blue dotted;
+  background-color: rgba(0, 128, 0, 0.247);
+}
+
+.photoRenaud{
+  height: 40%;
+}
+
+.h1Renaud{
+  font-size: 2.5rem;
+  font-weight: bold;
+  transform: translateY(-75px);
+  text-align: center;
+}
+
+.pRenaud{
+  font-family: 'Courier New', Courier, monospace;
+  font-style: italic;
+  text-shadow: 1px 2px 12px black;
+  text-align: center;
+}
+/*FIN carte Renaud */
