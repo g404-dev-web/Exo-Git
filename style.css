@@ -928,8 +928,8 @@ p {
   display: inline-block;
       font-size: 26px;
 }
-<<<<<<< HEAD
-=======
+
+
   /*debut code Sharky*/
   .shark{
     width: 350px;
@@ -972,14 +972,9 @@ p {
     border-color: #44107a;
   }
    /*FIN CODE Sharky */
->>>>>>> 1f60ce3 (card emerson)
 
 
-@keyframes textclip {
-  to {
-    background-position: 100% center;
-  }
-}
+
 /*debut code remi*/
 .remi{
   display: flex;
@@ -1070,6 +1065,12 @@ p {
   vertical-align: text-bottom;
 }
 
+@keyframes textclip {
+  to {
+    background-position: 100% center;
+  }
+}
+
 /* ################## */
 /* FIN CODE POLO */
 /* ################## */
@@ -1100,5 +1101,15 @@ p {
   line-height: 1.4em;
   font-size: 1.2em;
 }
-
 /* FIN CODE GOTA */
+
+/* DEBUT CODE alexis */
+.alexis{
+  background-image: url(./assets/chaudron.jpeg);
+  background-size: cover;
+  color: white;
+  border-radius: 15px;
+}
+/* ################## */
+
+
