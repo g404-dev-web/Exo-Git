@@ -980,6 +980,19 @@ p {
     background-position: 100% center;
   }
 }
+/*debut code remi*/
+.remi{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 400px;
+  background-color: #c9b8f8;
+  margin-top: 15px;
+  margin: 20px;
+  border: 1px solid blue;
+}
 
 /* ################## */
 
