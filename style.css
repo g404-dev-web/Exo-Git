@@ -935,4 +935,50 @@ p {
   }
 }
 
+/* début du code Maeva*/
+
+#mainbox {
+  font-family: calibri;
+  box-sizing: border-box;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card-maeva {
+  width: 350px;
+  border: 1px solid gray;
+  box-shadow: 1px 1px 3px #888;
+  border-top: 10px solid blue;
+  min-height: 250px;
+  padding: 10px;
+  margin: 40px;
+  background-color: black;
+}
+
+.card-maeva img {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  margin: 10px;
+}
+
+.card-maeva h1 {
+  font-weight: lighter;
+  color: blue;
+  margin-left: 100px;
+  margin-top: -30px;
+  font-size: 3em;
+}
+
+.card-maeva p {
+  margin: 10px;
+  font-family: segoe ui;
+  text-align: center;
+  color: blue;
+  line-height: 1.4em;
+  font-size:2em;
+}
+/*fin de code Maeva*/
+
 /* ################## */
