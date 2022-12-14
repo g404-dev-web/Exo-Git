@@ -939,15 +939,7 @@ p {
 
 /*Carte de Renaud */
 .cardRenaud{
-  width: 350px;
-  border: 1px solid gray;
-  box-shadow: 1px 1px 3px #888;
-  border-top: 10px solid purple;
-  min-height: 250px;
-  padding: 10px;
-  margin: 40px;
-  border: solid blue dotted;
-  background-color: rgba(0, 128, 0, 0.247);
+    background-color: rgba(0, 128, 0, 0.247);
 }
 
 .photoRenaud{
