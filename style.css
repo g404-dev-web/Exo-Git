@@ -72,6 +72,16 @@ p {
   font-weight: bold;
 }
 
+.avatar img {
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
+}
+
+.avatar:hover img {
+  transform: scale(1.1);
+}
+
+
 /* ################# */
 /* FIN CODE ORIGINEL */
 /* ################# */
@@ -111,14 +121,6 @@ p {
 /* DEBUT CODE Yvan */
 /* ################### */
 
-.avatar img {
-  object-fit: cover;
-  transition: transform 0.3s ease-in-out;
-}
-
-.avatar:hover img {
-  transform: scale(1.1);
-}
 
 .cardYvan {
   width: 350px;
@@ -220,11 +222,17 @@ border-radius: 60px 0px;
 border-top: 10px solid rgb(8, 3, 104);
 
 }
+#mathieu:hover {
+animation-duration: 0.5s;
+animation-name: tilt;
+animation-iteration-count: 1;
+box-shadow: 10px 20px;
+box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5);
+rotate: 5deg;
+transition: 1s;
 
+}
 
-/* ################# */
-/* FIN CODE ORIGINEL */
-/* ################# */
 
 
 
@@ -252,12 +260,13 @@ border-top: 10px solid rgb(8, 3, 104);
 /* ################# */
 
 
-#mathieu:hover {
-animation-duration: 0.5s;
-animation-name: tilt;
-animation-iteration-count: 1;
-box-shadow: 10px 20px;
-box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5);
-rotate: 5deg;
-transition: 1s;
+.ecard {
+  width: 350px;
+  border: 1px solid gray;
+  box-shadow: 1px 1px 3px #888;
+  border-top: 10px solid #3456;
+  min-height: 250px;
+  padding: 10px;
+  margin: 40px;
 }
+
