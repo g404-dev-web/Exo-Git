@@ -75,9 +75,6 @@ p {
 /* DEBUT CODE Alexandre */
 /* ################### */
 
-
-
-
 .avatar img {
   object-fit: cover;
   transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
@@ -86,3 +83,7 @@ p {
 #alexandre .avatar:hover img {
   transform: scale(1.1);
 }
+
+/* ################# */
+/* FIN CODE ORIGINEL */
+/* ################# */
