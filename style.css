@@ -138,6 +138,20 @@ p {
     0 0 100px rgb(34, 0, 185)
 }
 
+/* ################### */
+/* DEBUT CODE Melyne*/
+/* ################### */
+
+#Melyne {
+  width: 350px;
+  border: 1px solid rgb(0, 0, 0);
+  box-shadow: 1px 1px 3px #de05f1;
+  border-top: 10px solid rgb(0, 2, 128);
+  min-height: 250px;
+  padding: 10px;
+  margin: 40px;
+}
+
 /* ################# */
-/* FIN CODE ORIGINEL */
+/* FIN CODE Melyne*/
 /* ################# */
