@@ -95,6 +95,18 @@ p {
 /* FIN CODE Alexandre */
 /* ################# */
 
+/* DEBUT CODE Ismael */
+
+.cardIsma {
+  width: 350px;
+  border: 1px solid gray;
+  box-shadow: 1px 1px 3px #888;
+  border: 10px solid red;
+  min-height: 250px;
+  padding: 10px;
+  margin: 40px;
+}
+/* FIN CODE Ismael */
 /* ################### */
 /* DEBUT CODE Yvan */
 /* ################### */
@@ -118,6 +130,63 @@ p {
   margin: 40px;
 }
 
+
+/* ################### */
+/* DEBUT CODE Melyne*/
+/* ################### */
+
+#Melyne {
+  width: 350px;
+  border: 1px solid rgb(0, 0, 0);
+  box-shadow: 1px 1px 3px #de05f1;
+  border-top: 10px solid rgb(0, 2, 128);
+  min-height: 250px;
+  padding: 10px;
+  margin: 40px;
+}
+
 /* ################# */
-/* FIN CODE Yvan */
+/* FIN CODE Melyne*/
 /* ################# */
+
+
+
+/* ################### */
+/* DEBUT CODE LIAM */
+/* ################### */
+
+.cardliam {
+  width: 350px;
+  border: 1px solid gray;
+  box-shadow: 1px 1px 3px #888;
+  border-top: 10px solid blue;
+  min-height: 250px;
+  padding: 10px;
+  margin: 40px;
+  background-image: url(assets/guts.png);
+  background-size: 100%;
+}
+
+
+/* ################### */
+/* DEBUT CODE LEA*/
+/* ################### */
+
+.cardlea {
+border: solid 1px rgb(91, 86, 86);
+border-top:solid 10px rgb(243, 114, 114);
+width: 400px;
+margin: 50px;
+box-shadow: #888;
+padding: 20px;
+min-height: 50px;
+font-family: 'Times New Roman', Times, serif;
+font-size: medium;
+font-style: oblique;
+border-radius: 40px;
+}
+
+/* ################# */
+/* FIN CODE LEA */
+/* ################# */
+
