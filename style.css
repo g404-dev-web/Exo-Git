@@ -21,12 +21,15 @@
   margin: 40px;
 }
 
+/* ################# */
+/* FIN CODE ORIGINEL */
+/* ################# */
+
 /* ################### */
 /* DEBUT CODE DAVID */
 /* ################### */
 #david {
   font-family: Arial, Helvetica, sans-serif;
-  text-align: center;
   width: 350px;
   border: 1px solid rgb(58, 97, 226);
   background: linear-gradient(rgb(255, 255, 255), rgb(207, 207, 207));
@@ -36,15 +39,17 @@
   min-height: 250px;
   padding: 10px;
   margin: 40px;
-  }
-  #david .avatar img {
-    object-fit: cover;
-    transition: transform 0.3s ease-in-out;
-  }
-  
-  #david .avatar:hover img {
-    transform: scale(1.1);
-  }
+}
+
+#david .avatar img {
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
+}
+
+#david .avatar:hover img {
+  transform: scale(1.1);
+}
+
 /* ################### */
 /* DEBUT CODE DAVID */
 /* ################### */
@@ -128,7 +133,7 @@ p {
   width: 350px;
   border: 1px solid gray;
   box-shadow: 1px 1px 3px #888;
-  border-top: 10px solid red;
+  border: 10px solid red;
   min-height: 250px;
   padding: 10px;
   margin: 40px;
@@ -165,6 +170,25 @@ p {
 }
 
 
+/* ################### */
+/* DEBUT CODE Melyne*/
+/* ################### */
+
+#Melyne {
+  width: 350px;
+  border: 1px solid rgb(0, 0, 0);
+  box-shadow: 1px 1px 3px #de05f1;
+  border-top: 10px solid rgb(0, 2, 128);
+  min-height: 250px;
+  padding: 10px;
+  margin: 40px;
+}
+
+/* ################# */
+/* FIN CODE Melyne*/
+/* ################# */
+
+
 
 /* ################### */
 /* DEBUT CODE LIAM */
@@ -178,6 +202,8 @@ p {
   min-height: 250px;
   padding: 10px;
   margin: 40px;
+  background-image: url(assets/guts.png);
+  background-size: 100%;
 }
 
 
@@ -200,5 +226,6 @@ border-radius: 40px;
 }
 
 /* ################# */
-/* FIN CODE ORIGINEL */
+/* FIN CODE LEA */
 /* ################# */
+
