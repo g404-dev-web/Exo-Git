@@ -21,38 +21,6 @@
   margin: 40px;
 }
 
-/* ################# */
-/* FIN CODE ORIGINEL */
-/* ################# */
-
-/* ################### */
-/* DEBUT CODE DAVID */
-/* ################### */
-#david {
-  font-family: Arial, Helvetica, sans-serif;
-  width: 350px;
-  border: 1px solid rgb(58, 97, 226);
-  background: linear-gradient(rgb(255, 255, 255), rgb(207, 207, 207));
-  border-radius: 25% 10%;
-  box-shadow: 1px 1px 3px #2886dd;
-  border-top: 10px solid rgb(1, 24, 68);
-  min-height: 250px;
-  padding: 10px;
-  margin: 40px;
-}
-
-#david .avatar img {
-  object-fit: cover;
-  transition: transform 0.3s ease-in-out;
-}
-
-#david .avatar:hover img {
-  transform: scale(1.1);
-}
-
-/* ################### */
-/* DEBUT CODE DAVID */
-/* ################### */
 img {
   border-radius: 50%;
   width: 70px;
@@ -114,12 +82,12 @@ p {
 /* DEBUT CODE Alexandre */
 /* ################### */
 
-#alexandre .avatar img {
+.avatar img {
   object-fit: cover;
   transition: transform 0.3s ease-in-out;
 }
 
-#alexandre .avatar:hover img {
+.avatar:hover img {
   transform: scale(1.1);
 }
 
@@ -140,33 +108,26 @@ p {
 }
 /* FIN CODE Ismael */
 /* ################### */
-/* DEBUT CODE Mathieu */
+/* DEBUT CODE Yvan */
 /* ################### */
 
-@keyframes rotating {
-  from {
-    rotate: 0deg;
-  }
-
-  to {
-    rotate: 360deg;
-  }
+.avatar img {
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
 }
 
-
-.avatarmath img {
-  animation-duration: 0.5s;
-  animation-name: rotating;
-  animation-iteration-count: infinite;
+.avatar:hover img {
+  transform: scale(1.1);
 }
 
-#mathieu {
-  color: #000000;
-  text-shadow: 0 0 7px #000000,
-    0 0 10px #000000,
-    0 0 42px rgb(34, 0, 185),
-    0 0 77px rgb(34, 0, 185),
-    0 0 100px rgb(34, 0, 185)
+.cardYvan {
+  width: 350px;
+  border: 1px solid gray (51, 0, 255);
+  box-shadow: 1px 1px 3px #ff028d;
+  border-top: 10px solid greenyellow;
+  min-height: 250px;
+  padding: 10px;
+  margin: 40px;
 }
 
 
