@@ -25,34 +25,6 @@
 /* FIN CODE ORIGINEL */
 /* ################# */
 
-/* ################### */
-/* DEBUT CODE DAVID */
-/* ################### */
-#david {
-  font-family: Arial, Helvetica, sans-serif;
-  width: 350px;
-  border: 1px solid rgb(58, 97, 226);
-  background: linear-gradient(rgb(255, 255, 255), rgb(207, 207, 207));
-  border-radius: 25% 10%;
-  box-shadow: 1px 1px 3px #2886dd;
-  border-top: 10px solid rgb(1, 24, 68);
-  min-height: 250px;
-  padding: 10px;
-  margin: 40px;
-}
-
-#david .avatar img {
-  object-fit: cover;
-  transition: transform 0.3s ease-in-out;
-}
-
-#david .avatar:hover img {
-  transform: scale(1.1);
-}
-
-/* ################### */
-/* DEBUT CODE DAVID */
-/* ################### */
 img {
   border-radius: 50%;
   width: 70px;
@@ -114,12 +86,12 @@ p {
 /* DEBUT CODE Alexandre */
 /* ################### */
 
-#alexandre .avatar img {
+.avatar img {
   object-fit: cover;
   transition: transform 0.3s ease-in-out;
 }
 
-#alexandre .avatar:hover img {
+.avatar:hover img {
   transform: scale(1.1);
 }
 
@@ -140,35 +112,62 @@ p {
 }
 /* FIN CODE Ismael */
 /* ################### */
-/* DEBUT CODE Mathieu */
+
+
+/* ################### */
+/* DEBUT CODE DAVID */
 /* ################### */
 
-@keyframes rotating {
-  from {
-    rotate: 0deg;
-  }
-
-  to {
-    rotate: 360deg;
-  }
+#david {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 350px;
+  border: 1px solid rgb(58, 97, 226);
+  background: linear-gradient(rgb(255, 255, 255), rgb(207, 207, 207));
+  border-radius: 25% 10%;
+  box-shadow: 1px 1px 3px #2886dd;
+  border-top: 10px solid rgb(1, 24, 68);
+  max-height: 250px;
+  padding: 10px;
+  margin: 40px;
 }
 
-
-.avatarmath img {
-  animation-duration: 0.5s;
-  animation-name: rotating;
-  animation-iteration-count: infinite;
+#david .avatar img {
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
 }
 
-#mathieu {
-  color: #000000;
-  text-shadow: 0 0 7px #000000,
-    0 0 10px #000000,
-    0 0 42px rgb(34, 0, 185),
-    0 0 77px rgb(34, 0, 185),
-    0 0 100px rgb(34, 0, 185)
+#david .avatar:hover img {
+  transform: scale(1.1);
+}
+/* ################### */
+/* DEBUT CODE DAVID */
+/* ################### */
+
+/* ################### */
+/* DEBUT CODE Yvan */
+/* ################### */
+
+.avatar img {
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
 }
 
+.avatar:hover img {
+  transform: scale(1.1);
+}
+
+.cardYvan {
+  width: 350px;
+  border: 1px solid gray (51, 0, 255);
+  box-shadow: 1px 1px 3px #ff028d;
+  border-top: 10px solid greenyellow;
+  min-height: 250px;
+  padding: 10px;
+  margin: 40px;
+}
+/* ################### */
+/* FIN CODE Yvan */
+/* ################### */
 
 /* ################### */
 /* DEBUT CODE Melyne*/
@@ -207,6 +206,7 @@ p {
 }
 
 
+
 /* ################### */
 /* DEBUT CODE LEA*/
 /* ################### */
@@ -229,3 +229,32 @@ border-radius: 40px;
 /* FIN CODE LEA */
 /* ################# */
 
+
+@keyframes rotating {
+  from {
+    rotate: 0deg;
+  }
+
+  to {
+    rotate: 360deg;
+  }
+}
+
+
+.avatarmath img {
+  animation-duration: 0.5s;
+  animation-name: rotating;
+  animation-iteration-count: infinite;
+}
+
+#mathieu {
+  text-shadow:#5EE8FF 0 -2px 0,
+#0097BA 2px 2px 0,
+#00748F 4px 4px 0,
+#006178 6px 6px 0.5px,
+#333333 8px 11px 10px;
+color:#00CFFF;
+background: linear-gradient(90deg, #8360c3, #2ebf91);
+border-radius: 60px 0px;
+border-top: 10px solid rgb(8, 3, 104);
+}
