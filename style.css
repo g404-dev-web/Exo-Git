@@ -21,18 +21,9 @@
   margin: 40px;
 }
 
-#david {
-  font-family: Arial, Helvetica, sans-serif;
-  width: 350px;
-  border: 1px solid rgb(58, 97, 226);
-  background: linear-gradient(rgb(255, 255, 255), rgb(207, 207, 207));
-  border-radius: 25% 10%;
-  box-shadow: 1px 1px 3px #2886dd;
-  border-top: 10px solid rgb(1, 24, 68);
-  min-height: 250px;
-  padding: 10px;
-  margin: 40px;
-}
+/* ################# */
+/* FIN CODE ORIGINEL */
+/* ################# */
 
 img {
   border-radius: 50%;
@@ -95,12 +86,12 @@ p {
 /* DEBUT CODE Alexandre */
 /* ################### */
 
-#alexandre .avatar img {
+.avatar img {
   object-fit: cover;
   transition: transform 0.3s ease-in-out;
 }
 
-#alexandre .avatar:hover img {
+.avatar:hover img {
   transform: scale(1.1);
 }
 
@@ -108,9 +99,172 @@ p {
 /* FIN CODE Alexandre */
 /* ################# */
 
+/* DEBUT CODE Ismael */
+
+.cardIsma {
+  width: 350px;
+  border: 1px solid gray;
+  box-shadow: 1px 1px 3px #888;
+  border: 10px solid red;
+  min-height: 250px;
+  padding: 10px;
+  margin: 40px;
+}
+/* FIN CODE Ismael */
 /* ################### */
-/* DEBUT CODE Mathieu */
+
+
 /* ################### */
+/* DEBUT CODE DAVID */
+/* ################### */
+
+#david {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 350px;
+  border: 1px solid rgb(58, 97, 226);
+  background: linear-gradient(rgb(255, 255, 255), rgb(207, 207, 207));
+  border-radius: 25% 10%;
+  box-shadow: 1px 1px 3px #2886dd;
+  border-top: 10px solid rgb(1, 24, 68);
+  max-height: 250px;
+  padding: 10px;
+  margin: 40px;
+}
+
+#david .avatar img {
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
+}
+
+#david .avatar:hover img {
+  transform: scale(1.1);
+}
+/* ################### */
+/* DEBUT CODE DAVID */
+/* ################### */
+
+/* ################### */
+/* DEBUT CODE Yvan */
+/* ################### */
+
+.avatar img {
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
+}
+
+.avatar:hover img {
+  transform: scale(1.1);
+}
+
+.cardYvan {
+  width: 350px;
+  border: 1px solid gray (51, 0, 255);
+  box-shadow: 1px 1px 3px #ff028d;
+  border-top: 10px solid greenyellow;
+  min-height: 250px;
+  padding: 10px;
+  margin: 40px;
+}
+/* ################### */
+/* FIN CODE Yvan */
+/* ################### */
+
+/* ################### */
+/* DEBUT CODE Melyne*/
+/* ################### */
+
+#Melyne {
+  width: 350px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(231, 12, 202, 0.1);
+  background-color: #7569b6;
+  padding: 20px;
+  margin: 40px;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+}
+
+#Melyne:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+#Melyne::before {
+  content: '';
+  position: absolute;
+  top: -10px;
+  left: 0;
+  width: 100%;
+  height: 10px;
+  background-color: rgb(0, 2, 128);
+}
+
+#Melyne::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(45deg, #de05f1, #00c6ff);
+  opacity: 0.8;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease-in-out;
+}
+
+#Melyne:hover::after {
+  transform: scaleX(1);
+}
+
+/* ################# */
+/* FIN CODE Melyne*/
+/* ################# */
+
+
+
+/* ################### */
+/* DEBUT CODE LIAM */
+/* ################### */
+
+.cardliam {
+  width: 350px;
+  border: 1px solid gray;
+  box-shadow: 1px 1px 3px #888;
+  border-top: 10px solid blue;
+  min-height: 250px;
+  padding: 10px;
+  margin: 40px;
+  background-image: url(assets/guts.png);
+  background-size: 100%;
+}
+
+
+
+/* ################### */
+/* DEBUT CODE LEA*/
+/* ################### */
+
+.cardlea {
+border: solid 1px rgb(91, 86, 86);
+border-top:solid 10px rgb(243, 114, 114);
+width: 400px;
+margin: 50px;
+box-shadow: #888;
+padding: 20px;
+min-height: 50px;
+font-family: 'Times New Roman', Times, serif;
+font-size: medium;
+font-style: oblique;
+border-radius: 40px;
+}
+
+/* ################# */
+/* FIN CODE LEA */
+/* ################# */
+
 
 @keyframes rotating {
   from {
@@ -130,13 +284,17 @@ p {
 }
 
 #mathieu {
-  color: #000000;
-  text-shadow: 0 0 7px #000000,
-    0 0 10px #000000,
-    0 0 42px rgb(34, 0, 185),
-    0 0 77px rgb(34, 0, 185),
-    0 0 100px rgb(34, 0, 185)
+  text-shadow:#5EE8FF 0 -2px 0,
+#0097BA 2px 2px 0,
+#00748F 4px 4px 0,
+#006178 6px 6px 0.5px,
+#333333 8px 11px 10px;
+color:#00CFFF;
+background: linear-gradient(90deg, #8360c3, #2ebf91);
+border-radius: 60px 0px;
+border-top: 10px solid rgb(8, 3, 104);
 }
+
 
 /* ################# */
 /* FIN CODE ORIGINEL */
@@ -162,3 +320,8 @@ p {
 #KOGEY:hover {
   transform: scale(1.1);
 }
+
+/* ################# */
+/* FIN CODE KOGEY */
+/* ################# */
+
