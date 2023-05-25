@@ -138,6 +138,25 @@ p {
     0 0 100px rgb(34, 0, 185)
 }
 
+
+
+/* ################### */
+/* DEBUT CODE LIAM */
+/* ################### */
+
+.cardliam {
+  width: 350px;
+  border: 1px solid gray;
+  box-shadow: 1px 1px 3px #888;
+  border-top: 10px solid blue;
+  min-height: 250px;
+  padding: 10px;
+  margin: 40px;
+}
+
+
+
+
 /* ################# */
 /* FIN CODE ORIGINEL */
 /* ################# */
