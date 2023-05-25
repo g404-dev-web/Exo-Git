@@ -19,6 +19,7 @@
   min-height: 250px;
   padding: 10px;
   margin: 40px;
+  max-height: 250px;
 }
 
 /* ################# */
@@ -110,6 +111,7 @@ p {
   padding: 10px;
   margin: 40px;
 }
+
 /* FIN CODE Ismael */
 /* ################### */
 
@@ -139,6 +141,7 @@ p {
 #david .avatar:hover img {
   transform: scale(1.1);
 }
+
 /* ################### */
 /* DEBUT CODE DAVID */
 /* ################### */
@@ -165,6 +168,7 @@ p {
   padding: 10px;
   margin: 40px;
 }
+
 /* ################### */
 /* FIN CODE Yvan */
 /* ################### */
@@ -248,17 +252,17 @@ p {
 /* ################### */
 
 .cardlea {
-border: solid 1px rgb(91, 86, 86);
-border-top:solid 10px rgb(243, 114, 114);
-width: 400px;
-margin: 50px;
-box-shadow: #888;
-padding: 20px;
-min-height: 50px;
-font-family: 'Times New Roman', Times, serif;
-font-size: medium;
-font-style: oblique;
-border-radius: 40px;
+  border: solid 1px rgb(91, 86, 86);
+  border-top: solid 10px rgb(243, 114, 114);
+  width: 350px;
+  margin: 50px;
+  box-shadow: #888;
+  padding: 20px;
+  min-height: 50px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: medium;
+  font-style: oblique;
+  border-radius: 40px;
 }
 
 /* ################# */
@@ -284,15 +288,15 @@ border-radius: 40px;
 }
 
 #mathieu {
-  text-shadow:#5EE8FF 0 -2px 0,
-#0097BA 2px 2px 0,
-#00748F 4px 4px 0,
-#006178 6px 6px 0.5px,
-#333333 8px 11px 10px;
-color:#00CFFF;
-background: linear-gradient(90deg, #8360c3, #2ebf91);
-border-radius: 60px 0px;
-border-top: 10px solid rgb(8, 3, 104);
+  text-shadow: #5EE8FF 0 -2px 0,
+    #0097BA 2px 2px 0,
+    #00748F 4px 4px 0,
+    #006178 6px 6px 0.5px,
+    #333333 8px 11px 10px;
+  color: #00CFFF;
+  background: linear-gradient(90deg, #8360c3, #2ebf91);
+  border-radius: 60px 0px;
+  border-top: 10px solid rgb(8, 3, 104);
 }
 
 
@@ -310,12 +314,12 @@ border-top: 10px solid rgb(8, 3, 104);
   font-family: cursive;
   width: 350px;
   border: 1px solid rgb(58, 226, 134);
-  border-radius: 10% ;
+  border-radius: 10%;
   box-shadow: 1px 1px 3px #cf1212;
   border-top: 10px solid rgb(4, 219, 137);
- background-color: rgb(235, 234, 240);
- transition: transform 0.3s ease;
- }
+  background-color: rgb(235, 234, 240);
+  transition: transform 0.3s ease;
+}
 
 #KOGEY:hover {
   transform: scale(1.1);
@@ -324,4 +328,3 @@ border-top: 10px solid rgb(8, 3, 104);
 /* ################# */
 /* FIN CODE KOGEY */
 /* ################# */
-
