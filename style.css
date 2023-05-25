@@ -207,4 +207,25 @@ p {
 }
 
 
+/* ################### */
+/* DEBUT CODE LEA*/
+/* ################### */
+
+.cardlea {
+border: solid 1px rgb(91, 86, 86);
+border-top:solid 10px rgb(243, 114, 114);
+width: 400px;
+margin: 50px;
+box-shadow: #888;
+padding: 20px;
+min-height: 50px;
+font-family: 'Times New Roman', Times, serif;
+font-size: medium;
+font-style: oblique;
+border-radius: 40px;
+}
+
+/* ################# */
+/* FIN CODE LEA */
+/* ################# */
 
