@@ -178,6 +178,8 @@ p {
   min-height: 250px;
   padding: 10px;
   margin: 40px;
+  background-image: url(assets/guts.png);
+  background-size: 100%;
 }
 
 
