@@ -1,8 +1,10 @@
 
   
   .article-card {
+    border: 5px solid purple;
     width: 350px;
-    height: 220px;
+    min-height: 250px;
+    margin: 40px;
     border-radius: 12px;
     overflow: hidden;
     position: relative;
