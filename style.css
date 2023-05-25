@@ -39,24 +39,30 @@ p {
   font-size: 1.2em;
 }
 
-
-
 .header {
-  background-color: purple;
-  color: #fff;
+  background-color: #ffffff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   padding: 10px;
   text-align: center;
 }
 
+.header img {
+  width: 200px;
+}
+
 .footer {
-  background-color: purple;
-  color: #fff;
+  background-color: #ffffff;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
   padding: 10px;
   text-align: center;
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
+}
+
+.footer img {
+  width: 100px;
 }
 
 .header span,
@@ -75,14 +81,15 @@ p {
 /* DEBUT CODE Alexandre */
 /* ################### */
 
-
-
-
 .avatar img {
   object-fit: cover;
-  transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: transform 0.3s ease-in-out;
 }
 
-#alexandre .avatar:hover img {
+.avatar:hover img {
   transform: scale(1.1);
 }
+
+/* ################# */
+/* FIN CODE Alexandre */
+/* ################# */
