@@ -7,23 +7,25 @@ Vous disposerez tous du même point de départ et devrez arriver à la fin à un
 
 ## Déroulé de l'exercice :
 
-commencez par faire un fork de ce repository sur votre compte Github.
-Clonez l'exercice sur votre ordinateurApportez vos modifications au fichier index HTML et style Css
-Faire un commit puis poussez votre code sur votre repo github
-Faites un pull request sur le Repo Master 
+Commencez par faire un `fork` de ce repository sur votre compte Github.
+`Clonez` l'exercice sur votre ordinateur
+Apportez vos modifications au fichier index HTML et style Css
+Faire un `commit` puis `poussez` votre code sur votre repo github
+Faites un `pull request` sur le Repo Master 
 
-## consignes de modification :
+## Consignes de modification :
 
- à partir du code HTML de base :
-     modifiez l'image pour une photo de vous ou un avatar 
-     ajoutez votre nom 
-     ajoutez un petit texte ou une citation
-     Personalisez votre card 
-     les dimensions de la card ne peuvent pas être changées 
+A partir du code HTML de base :
+     - Ajoutez votre card en plus de celle des autres
+     - Modifiez l'image pour une photo de vous ou un avatar 
+     - Ajoutez votre nom 
+     - Ajoutez un petit texte ou une citation
+     - Personalisez votre card 
+     - **Les dimensions de la card ne peuvent pas être changées** 
      
-## consignes de fusion du code : 
+## Consignes de fusion du code : 
 
-pour mettre en commun vos modifications, vous devrez faire un pull request sur le repo master :   
-    depuis votre repo personnel, faite un pull request    
-    Sur le PC du formateur (connecté sur le repo master) fusionnez le code de votre pull request    
-    Vérifiez et corrigez tous conflits de code qui pourraient survenir. 
+Pour mettre en commun vos modifications, vous devrez faire une `pull request` sur le repo master :   
+    - Depuis votre repo personnel, faite un pull request    
+    - Sur le PC du formateur (connecté sur le repo master) `fusionnez` le code de votre `pull request`    
+    - Vérifiez et corrigez tous conflits de code qui pourraient survenir. 
