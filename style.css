@@ -278,7 +278,7 @@ p {
 /* ################# */
 
 /* ################# */
-/* DEBUT CODE KOGEY */
+/* DEBUT CODE YACINE */
 /* ################# */
 
 #KOGEY {
@@ -288,7 +288,7 @@ p {
   border-radius: 10%;
   box-shadow: 1px 1px 3px #cf1212;
   border-top: 10px solid rgb(4, 219, 137);
-  background-color: rgb(235, 234, 240);
+  background-color:#00CFFF;
   transition: transform 0.3s ease;
 }
 
@@ -297,7 +297,7 @@ p {
 }
 
 /* ################# */
-/* FIN CODE KOGEY */
+/* FIN CODE YACINE */
 /* ################# */
 
 /* ################# */
@@ -373,4 +373,49 @@ p {
 
 /* ################# */
 /* FIN CODE Soslan */
+/* ################# */
+
+/* ################# */
+/* DEBUT CODE Xenophylius */
+/* ################# */
+.ecardXenophylius {
+  width: 350px;
+  border: 1px solid gray;
+  box-shadow: 1px 1px 3px #888;
+  border-top: 10px solid #3456;
+  min-height: 250px;
+  padding: 10px;
+  margin: 40px;
+}
+
+#xenophylius {
+  border: 5px solid black;
+  box-shadow: 10px 5px 5px black;
+  border-radius: 15px; 
+}
+
+/* ################# */
+/* FIN CODE Xenophylius */
+
+/* ################# */
+/* DEBUT CODE Hamza */
+/* ################# */
+
+
+.hamza-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  border: #8360c3 solid 1px;
+}
+
+
+.hamza-card h1{
+  margin: 0;
+}
+
+
+/* ################# */
+/* FIN CODE Hamza */
 /* ################# */
