@@ -277,6 +277,29 @@ p {
 /* FIN CODE MATTHIEU */
 /* ################# */
 
+* ################# */
+/* DEBUT CODE ORLANE */
+/* ################# */
+
+#KOGEY {
+  font-family: cursive;
+  width: 350px;
+  border: 1px solid rgb(58, 226, 134);
+  border-radius: 10%;
+  box-shadow: 1px 1px 3px #cf1212;
+  border-top: 10px solid rgb(4, 219, 137);
+  background-color:#d400ff;
+  transition: transform 0.3s ease;
+}
+
+#KOGEY:hover {
+  transform: scale(1.1);
+}
+
+/* ################# */
+/* FIN CODE ORLANE */
+/* ################# */
+
 /* ################# */
 /* DEBUT CODE YACINE */
 /* ################# */
