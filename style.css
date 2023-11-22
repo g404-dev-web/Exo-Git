@@ -277,7 +277,7 @@ p {
 /* FIN CODE MATTHIEU */
 /* ################# */
 
-* ################# */
+/* ################# */
 /* DEBUT CODE ORLANE */
 /* ################# */
 
@@ -506,4 +506,27 @@ p {
 
 /* ################# */
 /* FIN CODE Willy */
+/* ################# */
+
+/* ################# */
+/* DEBUT CODE Rabeh*/
+/* ################# */
+
+
+.rabehcard{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  border: #8360c3 solid 1px;
+}
+
+
+.hamza-card h1{
+  margin: 0;
+}
+
+
+/* ################# */
+/* FIN CODE Rabeh */
 /* ################# */
