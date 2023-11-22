@@ -374,3 +374,27 @@ p {
 /* ################# */
 /* FIN CODE Soslan */
 /* ################# */
+
+
+/* ################# */
+/* DEBUT CODE Hamza */
+/* ################# */
+
+
+.hamza-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  border: #8360c3 solid 1px;
+}
+
+
+.hamza-card h1{
+  margin: 0;
+}
+
+
+/* ################# */
+/* FIN CODE Hamza */
+/* ################# */
