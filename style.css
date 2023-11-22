@@ -278,6 +278,29 @@ p {
 /* ################# */
 
 /* ################# */
+/* DEBUT CODE ORLANE */
+/* ################# */
+
+#KOGEY {
+  font-family: cursive;
+  width: 350px;
+  border: 1px solid rgb(58, 226, 134);
+  border-radius: 10%;
+  box-shadow: 1px 1px 3px #cf1212;
+  border-top: 10px solid rgb(4, 219, 137);
+  background-color:#d400ff;
+  transition: transform 0.3s ease;
+}
+
+#KOGEY:hover {
+  transform: scale(1.1);
+}
+
+/* ################# */
+/* FIN CODE ORLANE */
+/* ################# */
+
+/* ################# */
 /* DEBUT CODE YACINE */
 /* ################# */
 
@@ -460,4 +483,63 @@ p {
 
 /* ################# */
 /* FIN CODE MARTIN */
+
+/* ################# */
+/* DEBUT CODE Adam */
+/* ################# */
+
+
+.adam {
+  background-color: rgb(47, 47, 104);
+  color: #ffe;
+}
+.adam img{
+  float: left;
+  border: 3px solid #ffe;
+  box-shadow: 0 0 20px #000;
+}
+.adam .nom{
+  font-size: 40px;
+  margin: 20px 0 100px 20px;
+  border-bottom: 3px solid #ffe;
+}
+.adam .desc{
+  clear: both;
+  margin: 0 10px;
+  font-size: 18px;
+}
+
+/* ################# */
+/* FIN CODE Adam */
+/* ################# */
+/* DEBUT CODE Jorge */
+/* ################# */
+
+
+.jorge-card {
+  border: #0d0320 solid 15px;
+}
+
+
+.jorge-card h1{
+  margin: 0;
+
+}
+
+
+/* ################# */
+/* FIN CODE Jorge */
+/* ################# */
+
+
+/* DEBUT CODE Willy */
+/* ################# */
+
+.cardWilly{
+  border: 2px solid red;
+
+}
+
+/* ################# */
+/* FIN CODE Willy */
 /* ################# */
