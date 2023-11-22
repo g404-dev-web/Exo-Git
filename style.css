@@ -445,6 +445,33 @@ p {
 
 
 /* ################# */
+/* DEBUT CODE Adam */
+/* ################# */
+
+
+.adam {
+  background-color: rgb(47, 47, 104);
+  color: #ffe;
+}
+.adam img{
+  float: left;
+  border: 3px solid #ffe;
+  box-shadow: 0 0 20px #000;
+}
+.adam .nom{
+  font-size: 40px;
+  margin: 20px 0 100px 20px;
+  border-bottom: 3px solid #ffe;
+}
+.adam .desc{
+  clear: both;
+  margin: 0 10px;
+  font-size: 18px;
+}
+
+/* ################# */
+/* FIN CODE Adam */
+/* ################# */
 /* DEBUT CODE Jorge */
 /* ################# */
 
