@@ -374,3 +374,26 @@ p {
 /* ################# */
 /* FIN CODE Soslan */
 /* ################# */
+
+/* ################# */
+/* DEBUT CODE Xenophylius */
+/* ################# */
+.ecardXenophylius {
+  width: 350px;
+  border: 1px solid gray;
+  box-shadow: 1px 1px 3px #888;
+  border-top: 10px solid #3456;
+  min-height: 250px;
+  padding: 10px;
+  margin: 40px;
+}
+
+#xenophylius {
+  border: 5px solid black;
+  box-shadow: 10px 5px 5px black;
+  border-radius: 15px; 
+}
+
+/* ################# */
+/* FIN CODE Xenophylius */
+/* ################# */
