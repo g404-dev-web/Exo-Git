@@ -507,3 +507,20 @@ p {
 /* ################# */
 /* FIN CODE Willy */
 /* ################# */
+
+/* ################### */
+/* DEBUT CODE Sylvain */
+/* ################### */
+
+.Sylvain-card {display: flex;
+  flex-direction: column; flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  border: #343434 solid 2px;
+    margin:5px;
+    padding:10px;
+    background: linear-gradient(90deg, rgb(186, 186, 186) 0%, rgb(92, 92, 142) 35%, rgba(0, 213, 255, 0.351) 100%);;}
+
+/* ################# */
+/* FIN CODE Sylvain */
+/* ################# */
