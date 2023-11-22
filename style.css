@@ -419,6 +419,30 @@ p {
 /* ################# */
 /* FIN CODE Hamza */
 /* ################# */
+
+
+/* ################# */
+/* DEBUT CODE Jorge */
+/* ################# */
+
+
+.jorge-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  border: #0d0320 solid 15px;
+}
+
+
+.jorge-card h1{
+  margin: 0;
+
+}
+
+
+/* ################# */
+/* FIN CODE Jorge */
 /* ################# */
 
 
