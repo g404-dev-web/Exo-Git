@@ -277,6 +277,29 @@ p {
 /* FIN CODE MATTHIEU */
 /* ################# */
 
+* ################# */
+/* DEBUT CODE ORLANE */
+/* ################# */
+
+#KOGEY {
+  font-family: cursive;
+  width: 350px;
+  border: 1px solid rgb(58, 226, 134);
+  border-radius: 10%;
+  box-shadow: 1px 1px 3px #cf1212;
+  border-top: 10px solid rgb(4, 219, 137);
+  background-color:#d400ff;
+  transition: transform 0.3s ease;
+}
+
+#KOGEY:hover {
+  transform: scale(1.1);
+}
+
+/* ################# */
+/* FIN CODE ORLANE */
+/* ################# */
+
 /* ################# */
 /* DEBUT CODE YACINE */
 /* ################# */
@@ -421,7 +444,6 @@ p {
 /* ################# */
 
 
-
 /* ################# */
 /* DEBUT CODE Adam */
 /* ################# */
@@ -449,4 +471,39 @@ p {
 
 /* ################# */
 /* FIN CODE Adam */
+/* ################# */
+/* DEBUT CODE Jorge */
+/* ################# */
+
+
+.jorge-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  border: #0d0320 solid 15px;
+}
+
+
+.jorge-card h1{
+  margin: 0;
+
+}
+
+
+/* ################# */
+/* FIN CODE Jorge */
+/* ################# */
+
+
+/* DEBUT CODE Willy */
+/* ################# */
+
+.cardWilly{
+  border: 2px solid red;
+
+}
+
+/* ################# */
+/* FIN CODE Willy */
 /* ################# */
