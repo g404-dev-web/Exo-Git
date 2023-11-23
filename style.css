@@ -1,5 +1,16 @@
 /* ################### */
-/* DEBUT CODE ORIGINEL */
+
+
+/* DEBUT CODE loic/
+
+R
+}
+
+
+
+
+
+*/
 /* ################### */
 
 #mainbox {
@@ -273,6 +284,7 @@ p {
   transition: 1s;
 
 }
+
 /* ################# */
 /* FIN CODE MATTHIEU */
 /* ################# */
@@ -371,6 +383,50 @@ p {
   color: white;
 }
 
+
+
+
+
+
+
+
+
 /* ################# */
 /* FIN CODE Soslan */
 /* ################# */
+
+/* css loic */
+
+
+.loic {
+
+  background-image: url(imagelinux.png);
+  background-color: #000000;
+}
+
+
+.petitephrase {
+  
+
+  align-items: center
+}
+
+.loic h1 {
+  padding: 20px 20px 20px 20px;
+  margin: 0;
+  height: 40vh;
+  /* 100% de la hauteur de la vue */
+  display: flex;
+  align-items: center;
+  /* Aligner verticalement au centre */
+  justify-content: flex-start;
+
+
+
+  color: rgb(224, 224, 224);
+  flex-direction: row;
+
+
+
+
+}
