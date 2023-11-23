@@ -399,6 +399,62 @@ p {
 /* ################# */
 
 /* ################# */
+/* DEBUT CODE STEPHANE */
+/* ################# */
+@keyframes rotating {
+  from {
+    rotate: 0deg;
+  }
+
+  to {
+    rotate: 360deg;
+  }
+}
+
+.stephane-avatar img {
+  animation-duration: 0.5s;
+  animation-name: rotating;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.Stephane {
+  text-shadow: #5EE8FF 0 -2px 0,
+    #5aba00 2px 2px 0,
+    #50bcd4 4px 4px 0,
+    #780e00 6px 6px 0.5px,
+    #ce4646 8px 11px 10px;
+  color: #00CFFF;
+  background: linear-gradient(90deg, #8360c3, #2ebf91);
+  border-radius: 50px 50px;
+  border-top: 10px solid rgb(143, 6, 255);
+
+}
+.stephane-card {
+  width: 350px;
+  border: 1px solid gray;
+  box-shadow: 1px 1px 3px #888;
+  border-top: 10px solid rgb(232, 236, 7);
+  min-height: 250px;
+  padding: 10px;
+  margin: 40px;
+  max-height: 250px;
+}
+.stephane:hover {
+  animation-duration: 0.5s;
+  animation-name: tilt; 
+  animation-iteration-count: 1;
+  box-shadow: 100px 200px;
+  box-shadow: 100px 100px 250px rgba(238, 5, 5, 0.5);
+  rotate: 5deg;
+  transition: 1s;
+
+}
+/* ################# */
+/* FIN CODE MATTHIEU */
+/* ################# */
+
+/* ################# */
 /* DEBUT CODE Xenophylius */
 /* ################# */
 .ecardXenophylius {
