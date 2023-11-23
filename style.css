@@ -443,6 +443,46 @@ p {
 /* FIN CODE Hamza */
 /* ################# */
 
+/* ################# */
+/* DEBUT CODE MARTIN */
+/* ################# */
+
+.martin-card h1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  border: #8360c3 solid 1px;
+}
+
+.card1 {
+  background-color: #006178;
+  width: 350px;
+  border: 1px solid gray;
+  box-shadow: 1px 1px 3px #888;
+  border-top: 10px solid rgb(99, 163, 201);
+  border-radius: 60px 0px 60px 0px;
+  min-height: 250px;
+  padding: 10px;
+  margin: 40px;
+  max-height: 250px; 
+}
+.martin {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  border: #8360c3 solid 1px;
+}
+
+
+#KOGEY:hover {
+  transform: scale(1.1);
+}
+
+/* ################# */
+/* FIN CODE MARTIN */
 
 /* ################# */
 /* DEBUT CODE Adam */
@@ -477,10 +517,6 @@ p {
 
 
 .jorge-card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
   border: #0d0320 solid 15px;
 }
 
