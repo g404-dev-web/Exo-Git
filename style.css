@@ -420,7 +420,7 @@ p {
 }
 .stephane:hover {
   animation-duration: 0.5s;
-  animation-name: tilt;
+  animation-name: tilt; 
   animation-iteration-count: 1;
   box-shadow: 100px 200px;
   box-shadow: 100px 100px 250px rgba(238, 5, 5, 0.5);
