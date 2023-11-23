@@ -278,7 +278,7 @@ p {
 /* ################# */
 
 /* ################# */
-/* DEBUT CODE KOGEY */
+/* DEBUT CODE ORLANE */
 /* ################# */
 
 #KOGEY {
@@ -288,7 +288,7 @@ p {
   border-radius: 10%;
   box-shadow: 1px 1px 3px #cf1212;
   border-top: 10px solid rgb(4, 219, 137);
-  background-color: rgb(235, 234, 240);
+  background-color:#d400ff;
   transition: transform 0.3s ease;
 }
 
@@ -297,7 +297,30 @@ p {
 }
 
 /* ################# */
-/* FIN CODE KOGEY */
+/* FIN CODE ORLANE */
+/* ################# */
+
+/* ################# */
+/* DEBUT CODE YACINE */
+/* ################# */
+
+#KOGEY {
+  font-family: cursive;
+  width: 350px;
+  border: 1px solid rgb(58, 226, 134);
+  border-radius: 10%;
+  box-shadow: 1px 1px 3px #cf1212;
+  border-top: 10px solid rgb(4, 219, 137);
+  background-color:#00CFFF;
+  transition: transform 0.3s ease;
+}
+
+#KOGEY:hover {
+  transform: scale(1.1);
+}
+
+/* ################# */
+/* FIN CODE YACINE */
 /* ################# */
 
 /* ################# */
@@ -375,7 +398,6 @@ p {
 /* FIN CODE Soslan */
 /* ################# */
 
-
 /* ################# */
 /* DEBUT CODE STEPHANE */
 /* ################# */
@@ -432,3 +454,187 @@ p {
 /* FIN CODE MATTHIEU */
 /* ################# */
 
+/* ################# */
+/* DEBUT CODE Xenophylius */
+/* ################# */
+.ecardXenophylius {
+  width: 350px;
+  border: 1px solid gray;
+  box-shadow: 1px 1px 3px #888;
+  border-top: 10px solid #3456;
+  min-height: 250px;
+  padding: 10px;
+  margin: 40px;
+}
+
+#xenophylius {
+  border: 5px solid black;
+  box-shadow: 10px 5px 5px black;
+  border-radius: 15px; 
+}
+
+/* ################# */
+/* FIN CODE Xenophylius */
+
+/* ################# */
+/* DEBUT CODE Hamza */
+/* ################# */
+
+
+.hamza-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  border: #8360c3 solid 1px;
+}
+
+
+.hamza-card h1{
+  margin: 0;
+}
+
+
+/* ################# */
+/* FIN CODE Hamza */
+/* ################# */
+
+/* ################# */
+/* DEBUT CODE MARTIN */
+/* ################# */
+
+.martin-card h1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  border: #8360c3 solid 1px;
+}
+
+.card1 {
+  background-color: #006178;
+  width: 350px;
+  border: 1px solid gray;
+  box-shadow: 1px 1px 3px #888;
+  border-top: 10px solid rgb(99, 163, 201);
+  border-radius: 60px 0px 60px 0px;
+  min-height: 250px;
+  padding: 10px;
+  margin: 40px;
+  max-height: 250px; 
+}
+.martin {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  border: #8360c3 solid 1px;
+}
+
+
+#KOGEY:hover {
+  transform: scale(1.1);
+}
+
+/* ################# */
+/* FIN CODE MARTIN */
+
+/* ################# */
+/* DEBUT CODE Adam */
+/* ################# */
+
+
+.adam {
+  background-color: rgb(47, 47, 104);
+  color: #ffe;
+}
+.adam img{
+  float: left;
+  border: 3px solid #ffe;
+  box-shadow: 0 0 20px #000;
+}
+.adam .nom{
+  font-size: 40px;
+  margin: 20px 0 100px 20px;
+  border-bottom: 3px solid #ffe;
+}
+.adam .desc{
+  clear: both;
+  margin: 0 10px;
+  font-size: 18px;
+}
+
+/* ################# */
+/* FIN CODE Adam */
+/* ################# */
+/* DEBUT CODE Jorge */
+/* ################# */
+
+
+.jorge-card {
+  border: #0d0320 solid 15px;
+}
+
+
+.jorge-card h1{
+  margin: 0;
+
+}
+
+
+/* ################# */
+/* FIN CODE Jorge */
+/* ################# */
+
+
+/* DEBUT CODE Willy */
+/* ################# */
+
+.cardWilly{
+  border: 2px solid red;
+
+}
+
+/* ################# */
+/* FIN CODE Willy */
+/* ################# */
+
+/* ################### */
+/* DEBUT CODE Sylvain */
+/* ################### */
+
+.Sylvain-card {display: flex;
+  flex-direction: column; flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  border: #343434 solid 2px;
+    margin:5px;
+    padding:10px;
+    background: linear-gradient(90deg, rgb(186, 186, 186) 0%, rgb(92, 92, 142) 35%, rgba(0, 213, 255, 0.351) 100%);}
+
+/* ################# */
+/* FIN CODE Sylvain */
+
+/* ################# */
+/* DEBUT CODE Rabeh*/
+/* ################# */
+
+
+.rabehcard{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  border: #8360c3 solid 1px;
+}
+
+
+.hamza-card h1{
+  margin: 0;
+}
+
+
+/* ################# */
+/* FIN CODE Rabeh */
+/* ################# */
