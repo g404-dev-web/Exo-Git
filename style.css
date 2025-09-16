@@ -100,3 +100,20 @@ p {
 /* ################# */
 /* FIN CODE Alexandre */
 /* ################# */
+
+/* ################### */
+/* DEBUT CODE Axel */
+/* ################### */
+
+#axel-card {
+    border-top: 10px solid red;
+    box-shadow: 1px 1px 3px #f00;
+}
+
+#axel-img {
+  transform: none;
+}
+
+/* ################# */
+/* FIN CODE Axel */
+/* ################# */
