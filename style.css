@@ -101,6 +101,35 @@ p {
 /* FIN CODE Alexandre */
 /* ################# */
 
+/* ################### */
+/* DEBUT CODE Axel */
+/* ################### */
+
+#axel-card {
+    font-family: 'Franklin Gothic Medium';
+    transition: transform 0.3s ease-in-out;
+    border-top: 10px solid black;
+    box-shadow: 1px 1px 3px #f00;
+}
+
+#axel-card:hover {
+      border-top: 10px solid red;
+    transform: scale(1.05) rotateZ(-3deg);
+    box-shadow: 2px 2px 6px #f00;
+}
+
+#axel-card img {
+  transform: none;
+
+}
+
+#axel-card h1 {
+  text-decoration: underline;
+}
+
+/* ################# */
+/* FIN CODE Axel */
+
 /* DEBUT CODE Ismael */
 
 .cardIsma {
@@ -603,4 +632,5 @@ p {
 
 /* ################# */
 /* FIN CODE Thomas */
+
 /* ################# */
