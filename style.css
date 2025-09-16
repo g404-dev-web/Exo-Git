@@ -106,12 +106,25 @@ p {
 /* ################### */
 
 #axel-card {
-    border-top: 10px solid red;
+    font-family: 'Franklin Gothic Medium';
+    transition: transform 0.3s ease-in-out;
+    border-top: 10px solid black;
     box-shadow: 1px 1px 3px #f00;
 }
 
-#axel-img {
+#axel-card:hover {
+      border-top: 10px solid red;
+    transform: scale(1.05) rotateZ(-3deg);
+    box-shadow: 2px 2px 6px #f00;
+}
+
+#axel-card img {
   transform: none;
+
+}
+
+#axel-card h1 {
+  text-decoration: underline;
 }
 
 /* ################# */
