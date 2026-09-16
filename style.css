@@ -118,6 +118,13 @@ p {
   border: 1px solid gray;
   box-shadow: 1px 1px 3px #888;
   border-top: 10px solid rgb(1, 1, 1);
+  min-height: 250px;
+  padding: 10px;
+  margin: 40px;
+  max-height: 250px;
+  background-image: url("assets/coudoux.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .card-jalal{
@@ -227,9 +234,6 @@ p {
   padding: 10px;
   margin: 40px;
   max-height: 250px;
-  background-image: url("assets/coudoux.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .card-hugo {
