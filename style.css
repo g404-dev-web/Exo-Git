@@ -100,3 +100,17 @@ p {
 /* ################# */
 /* FIN CODE Formateur */
 /* ################# */
+.card-jalal{
+  width: 350px;
+  border: 1px solid gray;
+  box-shadow: 1px 1px 3px #888;
+  border-top: 10px solid rgb(128, 38, 0);
+  min-height: 250px;
+  padding: 10px;
+  margin: 40px;
+  max-height: 250px;
+  background-size: cover;
+  background-image: url("assets/Tk.jpg"); 
+  background-repeat: no-repeat;
+  
+}
