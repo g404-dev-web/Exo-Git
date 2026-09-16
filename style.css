@@ -82,18 +82,6 @@ p {
   transform: scale(1.2);
 }
 
-.card-e {
-  width: 350px;
-  border: 1px solid gray;
-  box-shadow: 3px 3px 5px #888;
-  border-top: 10px solid blue;
-  min-height: 250px;
-  padding: 10px;
-  margin: 40px;
-  max-height: 250px;
-  background-color: purple;
-}
-
 /* ################# */
 /* FIN CODE ORIGINEL */
 /* ################# */
@@ -111,17 +99,34 @@ p {
 /* ################# */
 /* FIN CODE Formateur */
 /* ################# */
+
+.card-e {
+  width: 350px;
+  border: 1px solid gray;
+  box-shadow: 3px 3px 5px #888;
+  border-top: 10px solid blue;
+  min-height: 250px;
+  padding: 10px;
+  margin: 40px;
+  max-height: 250px;
+  background-color: purple;
+}
+
 .card-antoine{
   width: 350px;
   border: 1px solid gray;
   box-shadow: 1px 1px 3px #888;
   border-top: 10px solid rgb(1, 1, 1);
+}
 
 .card-jalal{
   width: 350px;
   border: 1px solid gray;
   box-shadow: 1px 1px 3px #888;
   border-top: 10px solid rgb(128, 38, 0);
+  background-color: aqua;
+  background-image: url("./assets/Swan\ bébé.jpg")
+}
 
 /* ################### */
 /* DEBUT CODE Baptiste */
@@ -156,7 +161,7 @@ p {
     background-color: rgb(152, 1, 1);
     border: 3px solid black;
     color: rgb(122, 1, 1);
-    
+
   }
   50% {
     background-color: red;
@@ -211,6 +216,7 @@ p {
 /* ################# */
 /* FIN CODE Phileas */
 /* ################# */
+
 .Louison{
   width: 350px;
   border: 1px solid gray;
@@ -224,13 +230,10 @@ p {
   background-size: cover;
   background-repeat: no-repeat;
 }
-  background-color: aqua;
-  background-image: url("./assets/Swan\ bébé.jpg")
-}
-  
+
 .card-hugo {
   background-size: cover;
-  background-image: url("assets/Tk.jpg"); 
+  background-image: url("assets/Tk.jpg");
   background-repeat: no-repeat;
   background-image: url(./assets/010101.jpg);
 }
@@ -238,6 +241,7 @@ p {
 .text-hugo{
   color: white;
 }
+
 /* ################# */
 /* DEBUT CODE Timothée*/
 /* ################# */
@@ -277,7 +281,7 @@ p {
 }
 
 .video-wrapper {
-  position: relative;   
+  position: relative;
   width: 270px;
   height: 150px;
 }
@@ -294,7 +298,7 @@ p {
 .video-wrapper .cadre {
   position: absolute;
   border-radius: 0;
-  inset: -30px;                   
+  inset: -30px;
   width: calc(100% + 130px);
   height: calc(100% + 50px);
   z-index: 2;
