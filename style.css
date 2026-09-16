@@ -102,6 +102,29 @@ p {
 /* ################# */
 
 
+/* ################### */
+/* DEBUT CODE Phileas */
+/* ################### */
+
+#phiphi:hover {
+  rotate: 180deg;
+}
+
+#phiphi h1:hover {
+  transform: rotateZ(180deg);
+}
+
+#phiphi p:hover {
+  transform: rotateZ(180deg);
+}
+
+#phiphi .avatar:hover img {
+  transform: rotateZ(180deg);
+}
+
+/* ################# */
+/* FIN CODE Phileas */
+/* ################# */
 .card-hugo {
   width: 350px;
   border: 1px solid gray;
