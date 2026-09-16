@@ -100,3 +100,16 @@ p {
 /* ################# */
 /* FIN CODE Formateur */
 /* ################# */
+
+.Louison{
+  width: 350px;
+  border: 1px solid gray;
+  box-shadow: 1px 1px 3px #888;
+  border-top: 10px solid purple;
+  min-height: 250px;
+  padding: 10px;
+  margin: 40px;
+  max-height: 250px;
+  background-color: aqua;
+  background-image: url("./assets/Swan\ bébé.jpg")
+}
