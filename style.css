@@ -100,3 +100,68 @@ p {
 /* ################# */
 /* FIN CODE Formateur */
 /* ################# */
+
+/* ################### */
+/* DEBUT CODE Baptiste */
+/* ################### */
+
+#baptiste {
+  border: 3px solid gray;
+  box-shadow: none;
+  animation: baptiste 1s linear infinite;
+  text-align: left;
+  font-weight: 600;
+  border-radius: 30px;
+}
+
+#baptiste h1 {
+  font-size: 3rem;
+  text-decoration: underline;
+}
+
+#baptiste p {
+  margin-top: 40px;
+  margin-left: 30px;
+  font-size: 1.5rem;
+}
+
+#baptiste .avatar:hover {
+  animation: rotate 2s linear infinite;
+}
+
+@keyframes baptiste {
+  0% {
+    background-color: rgb(152, 1, 1);
+    border: 3px solid black;
+    color: rgb(122, 1, 1);
+    
+  }
+  50% {
+    background-color: red;
+    border: 3px solid white;
+    scale: 1.05;
+    color: white;
+    box-shadow: 0 0 40px red;
+    text-shadow: 0 0 20px white;
+  }
+  100% {
+    background-color: rgb(152, 1, 1);
+    border: 3px solid black;
+    color: rgb(122, 1, 1);
+  }
+}
+@keyframes rotate {
+  0% {
+    transform: rotateX(0deg);
+  }
+  50% {
+    transform: rotateX(180deg);
+  }
+  100% {
+    transform: rotateX(360deg);
+  }
+}
+
+/* ################### */
+/* FIN CODE Baptiste */
+/* ################### */
