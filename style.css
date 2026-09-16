@@ -20,6 +20,7 @@
   padding: 10px;
   margin: 40px;
   max-height: 250px;
+  border-radius: 12px;
 }
 
 img {
@@ -243,38 +244,47 @@ p {
 }
 
 /* ################# */
-/* DEBUT CODE Timothée*/
+/* DEBUT CODE Léandre */
 /* ################# */
 
-.cardTim{
-  border-color: #ffffff;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
+#Léandre {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
+    url('https://static.wikia.nocookie.net/jjba/images/1/1b/Giorno_et_Gold_Experience_Requiem_Anime.png/revision/latest?cb=20190806153218&path-prefix=fr');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-.cardTim .top{
-  display: flex;
-  height: fit-content;
-  align-items: center;
-  width: 100%;
+#Léandre h1,
+#Léandre p {
+  color: #111111;
+  font-weight: 700;
+  text-shadow: 0 1px 2px rgba(255, 255, 255, 0.8);
   position: relative;
-  bottom: 1rem;
+  top: -20px;
 }
 
-.cardTim .timotheeName{
-  font-size: 2em;
-  margin: 0;
-  margin-left: 2.5rem;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+#Léandre .avatar img {
+  width: 80px;
+  height: 80px;
 }
 
-.cardTim .content{
+#Léandre .profile-row {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#Léandre h1 {
+  margin: 0;
+  text-align: center;
   width: 100%;
   justify-content: center;
 }
+
+/* ################# */
+/* FIN CODE Léandre */
+/* ################# */
 
 .cardTim iframe{
   opacity: 0.5;
@@ -305,8 +315,6 @@ p {
   pointer-events: none;
   margin-left: -2rem;
 }
-
-
 
 /* ################# */
 /* FIN CODE Timothée */
