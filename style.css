@@ -82,6 +82,17 @@ p {
   transform: scale(1.2);
 }
 
+.card-e {
+  width: 350px;
+  border: 1px solid gray;
+  box-shadow: 3px 3px 5px #888;
+  border-top: 10px solid blue;
+  min-height: 250px;
+  padding: 10px;
+  margin: 40px;
+  max-height: 250px;
+  background-color: purple;
+}
 
 /* ################# */
 /* FIN CODE ORIGINEL */
