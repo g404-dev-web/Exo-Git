@@ -15,7 +15,7 @@
   width: 350px;
   border: 1px solid gray;
   box-shadow: 1px 1px 3px #888;
-  border-top: 10px solid purple;
+  border-top: 10px solid rgb(214, 10, 255);
   min-height: 250px;
   padding: 10px;
   margin: 40px;
@@ -82,6 +82,17 @@ p {
   transform: scale(1.2);
 }
 
+.card-e {
+  width: 350px;
+  border: 1px solid gray;
+  box-shadow: 3px 3px 5px #888;
+  border-top: 10px solid blue;
+  min-height: 250px;
+  padding: 10px;
+  margin: 40px;
+  max-height: 250px;
+  background-color: purple;
+}
 
 /* ################# */
 /* FIN CODE ORIGINEL */
@@ -99,4 +110,200 @@ p {
 
 /* ################# */
 /* FIN CODE Formateur */
+/* ################# */
+.card-antoine{
+  width: 350px;
+  border: 1px solid gray;
+  box-shadow: 1px 1px 3px #888;
+  border-top: 10px solid rgb(1, 1, 1);
+
+.card-jalal{
+  width: 350px;
+  border: 1px solid gray;
+  box-shadow: 1px 1px 3px #888;
+  border-top: 10px solid rgb(128, 38, 0);
+
+/* ################### */
+/* DEBUT CODE Baptiste */
+/* ################### */
+
+#baptiste {
+  border: 3px solid gray;
+  box-shadow: none;
+  animation: baptiste 1s linear infinite;
+  text-align: left;
+  font-weight: 600;
+  border-radius: 30px;
+}
+
+#baptiste h1 {
+  font-size: 3rem;
+  text-decoration: underline;
+}
+
+#baptiste p {
+  margin-top: 40px;
+  margin-left: 30px;
+  font-size: 1.5rem;
+}
+
+#baptiste .avatar:hover {
+  animation: rotate 2s linear infinite;
+}
+
+@keyframes baptiste {
+  0% {
+    background-color: rgb(152, 1, 1);
+    border: 3px solid black;
+    color: rgb(122, 1, 1);
+    
+  }
+  50% {
+    background-color: red;
+    border: 3px solid white;
+    scale: 1.05;
+    color: white;
+    box-shadow: 0 0 40px red;
+    text-shadow: 0 0 20px white;
+  }
+  100% {
+    background-color: rgb(152, 1, 1);
+    border: 3px solid black;
+    color: rgb(122, 1, 1);
+  }
+}
+@keyframes rotate {
+  0% {
+    transform: rotateX(0deg);
+  }
+  50% {
+    transform: rotateX(180deg);
+  }
+  100% {
+    transform: rotateX(360deg);
+  }
+}
+
+/* ################### */
+/* FIN CODE Baptiste */
+/* ################### */
+
+/* ################### */
+/* DEBUT CODE Phileas */
+/* ################### */
+
+#phiphi:hover {
+  rotate: 180deg;
+}
+
+#phiphi h1:hover {
+  transform: rotateZ(180deg);
+}
+
+#phiphi p:hover {
+  transform: rotateZ(180deg);
+}
+
+#phiphi .avatar:hover img {
+  transform: rotateZ(180deg);
+}
+
+/* ################# */
+/* FIN CODE Phileas */
+/* ################# */
+.Louison{
+  width: 350px;
+  border: 1px solid gray;
+  box-shadow: 1px 1px 3px #888;
+  border-top: 10px solid purple;
+  min-height: 250px;
+  padding: 10px;
+  margin: 40px;
+  max-height: 250px;
+  background-image: url("assets/coudoux.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+  background-color: aqua;
+  background-image: url("./assets/Swan\ bébé.jpg")
+}
+  
+.card-hugo {
+  background-size: cover;
+  background-image: url("assets/Tk.jpg"); 
+  background-repeat: no-repeat;
+  background-image: url(./assets/010101.jpg);
+}
+
+.text-hugo{
+  color: white;
+}
+/* ################# */
+/* DEBUT CODE Timothée*/
+/* ################# */
+
+.cardTim{
+  border-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.cardTim .top{
+  display: flex;
+  height: fit-content;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  bottom: 1rem;
+}
+
+.cardTim .timotheeName{
+  font-size: 2em;
+  margin: 0;
+  margin-left: 2.5rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.cardTim .content{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.cardTim iframe{
+  opacity: 0.5;
+}
+
+.video-wrapper {
+  position: relative;   
+  width: 270px;
+  height: 150px;
+}
+
+.video-wrapper iframe {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  opacity: 1;
+  pointer-events: none;
+}
+
+.video-wrapper .cadre {
+  position: absolute;
+  border-radius: 0;
+  inset: -30px;                   
+  width: calc(100% + 130px);
+  height: calc(100% + 50px);
+  z-index: 2;
+  pointer-events: none;
+  margin-left: -2rem;
+}
+
+
+
+/* ################# */
+/* FIN CODE Timothée */
 /* ################# */
