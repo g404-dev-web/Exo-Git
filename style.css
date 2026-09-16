@@ -117,3 +117,72 @@ p {
 .text-hugo{
   color: white;
 }
+/* ################# */
+/* DEBUT CODE Timothée*/
+/* ################# */
+
+.cardTim{
+  border-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.cardTim .top{
+  display: flex;
+  height: fit-content;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  bottom: 1rem;
+}
+
+.cardTim .timotheeName{
+  font-size: 2em;
+  margin: 0;
+  margin-left: 2.5rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.cardTim .content{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.cardTim iframe{
+  opacity: 0.5;
+}
+
+.video-wrapper {
+  position: relative;   
+  width: 270px;
+  height: 150px;
+}
+
+.video-wrapper iframe {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  opacity: 1;
+  pointer-events: none;
+}
+
+.video-wrapper .cadre {
+  position: absolute;
+  border-radius: 0;
+  inset: -30px;                   
+  width: calc(100% + 130px);
+  height: calc(100% + 50px);
+  z-index: 2;
+  pointer-events: none;
+  margin-left: -2rem;
+}
+
+
+
+/* ################# */
+/* FIN CODE Timothée */
+/* ################# */
