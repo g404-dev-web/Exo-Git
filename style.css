@@ -79,7 +79,7 @@ p {
 }
 
 .avatar:hover img {
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
 
 
@@ -90,13 +90,13 @@ p {
 /* Time to shine */
 
 /* ################### */
-/* DEBUT CODE Alexandre */
+/* DEBUT CODE Formateur */
 /* ################### */
 
-.avatar:hover img {
-  transform: rotateZ(180deg);
+#formateur .avatar:hover img {
+  /* transform: rotateZ(180deg); */
 }
 
 /* ################# */
-/* FIN CODE Alexandre */
+/* FIN CODE Formateur */
 /* ################# */
