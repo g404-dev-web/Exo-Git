@@ -111,6 +111,7 @@ p {
 /* ################# */
 /* FIN CODE Formateur */
 /* ################# */
+
 .card-jalal{
   width: 350px;
   border: 1px solid gray;
@@ -205,7 +206,7 @@ p {
 /* ################# */
 /* FIN CODE Phileas */
 /* ################# */
-.card-hugo {
+.Louison{
   width: 350px;
   border: 1px solid gray;
   box-shadow: 1px 1px 3px #888;
@@ -214,11 +215,14 @@ p {
   padding: 10px;
   margin: 40px;
   max-height: 250px;
+  background-color: aqua;
+  background-image: url("./assets/Swan\ bébé.jpg")
+}
+  
+.card-hugo {
   background-size: cover;
   background-image: url("assets/Tk.jpg"); 
   background-repeat: no-repeat;
-  
-}
   background-image: url(./assets/010101.jpg);
 }
 
